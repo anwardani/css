@@ -1,5 +1,5 @@
-# CSS Host
-host of css for custom theme OJS
+# CSS Host for OJS 2
+Host of css for custom theme for OJS 2.x
 
 ## Sponsorship
 This project sponsored by RJI
