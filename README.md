@@ -1,4 +1,4 @@
-# CSS Host for OJS 2
+# CSS OJS 2
 Host of css for custom theme for OJS 2.x
 
 ## Sponsorship
