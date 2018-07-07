@@ -1,650 +1,954 @@
-#header {
-    background-color: transparent;
-    padding-bottom: 40px
-}
+ /*--- clear.css ---*/
+.color1,.color1-light,.color2,.color2-light{background-color:#ffff}.pull-right{float:right!important}.pull-left{float:left!important}.clear{clear:both}.cover-image-intro{margin:0 0 0 1em;width:100px;box-shadow:1px 1px 12px #ccc;border:1px solid #eee}.color-box{display:block;width:60px;height:40px;float:left;margin-right:5px}body{display:inline!important}.color-grey-light{background-color:#eeeeee}
 
-#navbar {
-    background-color: navy;
-    background-repeat: repeat-x;
-    border: 0;
-    height: 40px;
-    margin-bottom: 10px;
-    margin-left: 0!important;
-    padding: 0;
-    text-align: left;
-    width: 1020px
-}
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+     background-image: none;
+     font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+     font-weight: normal;
+     font-size: 12px;
+     display: none;
+     color: #222
+ }
 
-#navbar ul {
-    margin: 0;
-    padding: 0 0 0 10px
-}
+ a:link,
+ a:visited,
+ a:active {
+     color: SteelBlue;
+     text-decoration: none
+ }
 
-#navbar ul li {
-    float: left;
-    margin: 0;
-    padding: 0
-}
+ a:hover {
+     color: SteelBlue;
+     background: none;
+     text-decoration: underline
+ }
 
-#navbar a,
-#navbar a:link,
-#navbar a:visited {
-    color: #fff;
-    display: inline-block;
-    font-size: .6em;
-    font-weight: 700;
-    line-height: 40px;
-    margin: 0;
-    padding-left: 10px;
-    padding-right: 10px
-}
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Pathway Gothic One', "Times New Roman", Times, serif!important;
+     color: #000;
+     font-weight: normal;
+     text-align: left
+ }
 
-#navbar a::after,
-#navbar a::before {
-    content: "";
-    display: block;
-    height: 30px;
-    position: absolute;
-    top: 5px;
-    width: 1px
-}
+ h1 {
+     font-size: 3em;
+     font-weight: normal
+ }
 
-#navbar a::before {
-    background: -moz-linear-gradient(center top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0)) rgba(0, 0, 0, 0);
-    margin-left: -10px;
-    opacity: .15
-}
+ h2 {
+     font-size: 2em;
+     font-weight: normal
+ }
 
-#navbar a::after {
-    background: -moz-linear-gradient(center top, rgba(255, 255, 255, .01), #fff, rgba(255, 255, 255, .01)) rgba(0, 0, 0, 0);
-    margin-left: -9px;
-    opacity: .35
-}
+ h3 {
+     font-size: 1.8em;
+     font-weight: normal
+ }
 
-#navbar li:first-child a::after,
-#navbar li:first-child a::before {
-    background-color: #000;
-    display: none
-}
+ h4 {
+     font-size: 1.6em;
+     font-weight: normal
+ }
 
-#navbar a:hover {
-    background: #000067;
-    text-shadow: 1px 1px #000067
-}
+ h5 {
+     font-size: 1em;
+     font-weight: normal
+ }
 
-#body,
-#header,
-#navbar,
-#sidebar,
-#main {
-    display: inline-block!important
-}
+ h6 {
+     font-size: .85em;
+     font-weight: normal
+ }
 
-#leftSidebar div.block span.blockTitle,
-#rightSidebar div.block span.blockTitle,
-#sidebarDevelopedBy.block,
-#sidebarHelp.block {
-    background: url(stripes.png) #ccc
-}
+ #container {
+     margin: 0 auto;
+     padding: 0;
+     background-color: #ccc;
+     background-image: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/noisy_grid.png);
+     width: auto;
+     min-width: 730px;
+     text-align: center;
+     display: inline-block
+ }
 
-#body,
-#main,
-body {
-    background-color: #fff
-}
+ #header {
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+     background-image: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/noisy_grid.png);
+     min-height: 150px
+ }
 
-#additionalHomeContent,
-#announcementsHome,
-#navbar {
-    clear: both
-}
+ #headerTitle {
+     width: 1080px;
+     margin: 0 auto;
+     display: inline-block
+ }
 
-#container,
-#headerTitle {
-    margin: 0 auto;
-    display: inline-block
-}
+ #header h1 {
+     font-family: Teko, verdana, Georgia, "Times New Roman", Times, serif!important;
+     font-weight: 200!important;
+     text-transform: none;
+     font-size: 3.2em;
+     letter-spacing: 0;
+     color: #111;
+     text-shadow: 1px 1px #fff;
+     padding: 0!important;
+     line-height: 150px;
+     margin-top: -13.33333333px
+ }
 
-#announcements,
-#container {
-    width: auto
-}
+ #headerTitle img {
+     float: left;
+     display: inline-block;
+     margin-top: 13.33333333px;
+     margin-bottom: 40px;
+     max-width: 1080px;
+     height: auto
+ }
 
-#body,
-#container,
-#headerTitle,
-#headerTitle img {
-    display: inline-block;
-background-color:#ffffff ;
-}
+ #body {
+     margin: -40px auto 12px auto;
+     padding: 0 0 24px 0;
+     background-color: #fff;
+     background-image: none;
+     width: 1080px!important;
+     display: inline-block;
+     height: auto
+ }
 
-#header,
-#navbar,
-ul.sidemenu li:before {
-    display: none
-}
+ #main {
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+     background-image: none;
+     display: inline;
+     float: left;
+     position: relative;
+     width: 874px;
+     overflow: visible!important
+ }
 
-body {
-    color: #333;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-background-color:#EBECE9 ;
-}
+ #content {
+     border-top: 0 dotted #000;
+     font-size: 1em
+ }
 
-a:active,
-a:link,
-a:visited {
-    color: #0d355e;
-    text-decoration: none
-}
+ #navbar {
+     margin: 0 0 12px 0;
+     padding: 0;
+     background-color: SteelBlue;
+     background-image: none;
+     clear: both;
+     text-align: center;
+     border: 0;
+     height: 40px;
+     width: 1080px
+ }
 
-#navbar a:active,
-a:hover {
-    background: rgba(0, 0, 0, 0);
-    text-decoration: underline
-}
+ #navbar ul {
+     margin: 0;
+     padding: 0;
+     display: inline-block
+ }
 
-#container {
-    /* background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/cloth.png); */
-    background: url(http://jurnal.uinsu.ac.id/index.php/zero/manager/files/noisy_grid.png);
-    min-width: 730px!important;
-    text-align: center
-}
+ #navbar ul li {
+     margin: 0;
+     padding: 0;
+     float: left
+ }
 
-#headerTitle {
-    width: 1020px
-}
+ #navbar a,
+ #navbar a:link,
+ #navbar a:visited {
+     font-family: 'Pathway Gothic One', "Times New Roman", Times, serif;
+     font-weight: 400;
+     font-size: 1.4em!important;
+     text-transform: uppercase;
+     letter-spacing: 0;
+     color: #fff;
+     line-height: 40px;
+     display: inline-block;
+     margin: 0;
+     padding-left: 15px;
+     padding-right: 15px
+ }
 
-#header h1 {
-    color: #111;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 1.4em;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 120px;
-    padding: 0;
-    text-shadow: 1px 1px #fff
-}
+ #navbar a:before,
+ #navbar a:after {
+     content: '';
+     position: absolute;
+     top: 5px;
+     display: block;
+     height: 30px;
+     width: 1px
+ }
 
-#headerTitle img {
-    float: left;
-    margin-right: 20px
-}
+ #navbar a:before {
+     margin-left: -15px;
+     opacity: .15;
+     background: rgba(0, 0, 0, .7);
+     background: linear-gradient(to top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+     background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0))
+ }
 
-#body {
-    margin: -40px auto 0;
-    width: 1020px!important;
-    padding-bottom: 20px
-}
+ #navbar a:after {
+     margin-left: -14px;
+     opacity: .35;
+     background: rgba(255, 255, 255, .8);
+     background: linear-gradient(to top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+     background: -moz-linear-gradient(top, rgba(255, 255, 255, .01), #fff, rgba(255, 255, 255, .01));
+     background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0))
+ }
 
-#main {
-    float: left;
-    margin-left: 0;
-    margin-right: 0!important;
-    overflow: visible!important;
-    padding: 0;
-    background: transparent none;
-    position: relative;
-    width: 805px;
-    display: none
-}
+ #navbar li:first-child a:before,
+ #navbar li:first-child a:after {
+     background-color: black;
+     display: none
+ }
 
-#content h1,
-#content h2,
-#content h3,
-#content h4,
-#main>h2 {
-    color: #333;
-    font-family: Cuprum, sans-serif;
-    font-weight: 700
-}
+ #navbar a:hover {
+     background: #3f75a2;
+     text-shadow: 1px 1px #3f75a2
+ }
 
-#content {
-    border-top: 0 dotted #000
-}
+ #navbar a:active {
+     background: none;
+     text-decoration: underline
+ }
 
-ul.sidemenu li a,
-ul.sidemenu li:first-child a {
-    border-top: 1px solid #80abce
-}
+ ul.sidemenu li:first-child a {
+     border-top: 1px solid #315c80
+ }
 
-ul.sidemenu {
-    padding-left: 0!important;
-    margin: -10px -10px 0
-}
+ ul.sidemenu {
+     margin-top: -12px;
+     padding-left: 0!important
+ }
 
-ul.sidemenu li {
-    padding: 0
-}
+ ul.sidemenu.full {
+     margin: -12px -12px 0 -12px
+ }
 
-ul.sidemenu li a {
-    background: #000080;
-    border-bottom: 1px solid #315c80;
-    color: #fff;
-    display: block;
-    padding: .66em 10px .6em 13px;
-    text-decoration: none
-}
+ ul.sidemenu li:before {
+     display: none
+ }
 
-#leftSidebar {
-    display: none;
-    border-right: 1px solid #ccc;
-    float: left;
-    width: 0
-}
+ ul.sidemenu li {
+     padding: 0
+ }
 
-ul.sidemenu li:last-child a {
-    border-bottom: 0
-}
+ ul.sidemenu li a {
+     display: block;
+     padding: .7em 12px .7em 12px;
+     border-bottom: 1px solid #315c80;
+     background-color: #4682b4;
+     text-decoration: none;
+     color: #fff
+ }
 
-ul.sidemenu li a:hover {
-    background-color: #5a5a9e;
-    text-decoration: underline
-}
+ ul.sidemenu li a:hover {
+     background-color: #3a6d98;
+     text-decoration: underline
+ }
 
-#breadcrumb {
-    margin: 0 20px;
-    padding: .7em 0;
-    border-bottom: 1px dotted #333
-}
+ #breadcrumb {
+     margin: 0 12px 1em 12px;
+     padding: .5em 0;
+     background-color: #yellow;
+     background-image: none;
+     font-size: 1em;
+     border-bottom: 1px dotted #333
+ }
 
-#content,
-#main>h2 {
-    padding-left: 20px;
-    padding-right: 20px
-}
+ #main>h2,
+ #content {
+     padding-left: 12px;
+     padding-right: 12px
+ }
 
-#cpr {
-    border: 0 #fff
-}
+ #cpr {
+     border: 0 none #fff
+ }
 
-#leftSidebar,
-#rightSidebar {
-    font-size: .68em;
-    height: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    overflow: hidden;
-    padding: 50px 10px 10px
-}
+ #leftSidebar,
+ #rightSidebar {
+     margin: 40px 0 0 0;
+     padding: 12px;
+     background-color: transparent;
+     background-image: none;
+     font-size: 1em;
+     height: auto;
+     overflow: hidden
+ }
 
-#rightSidebar {
-    border-left: 1px solid #ccc;
-    float: right;
-    width: 191px;
-    background: transparent none
-}
+ #leftSidebar {
+     width: 0;
+     display: none;
+     float: left;
+     border-right-width: 1px;
+     border-right-style: solid;
+     border-right-color: #ccc
+ }
 
-#leftSidebar div.block,
-#rightSidebar div.block {
-    border: 0;
-    color: inherit;
-    padding: 0 0 10px;
-    margin-bottom: 10px
-}
+ #rightSidebar {
+     width: 180px;
+     float: right;
+     border-left-width: 1px;
+     border-left-style: solid;
+     border-left-color: #ccc
+ }
 
-#leftSidebar div.block span.blockTitle,
-#rightSidebar div.block span.blockTitle,
-#sidebarDevelopedBy.block,
-#sidebarHelp.block {
-    color: #222;
-    display: block;
-    letter-spacing: 0;
-    margin-bottom: 10px;
-    background: #dadada url(http://journal.uinsgd.ac.id/public/site/images/bbusro/stripes1.png);
-    padding: .4em 10px!important;
-    text-transform: uppercase
-}
+ #rightSidebar div.block,
+ #leftSidebar div.block {
+     border: 0;
+     padding: 0 0 12px 0;
+     margin-bottom: 12px;
+     color: inherit
+ }
 
-#sidebarDevelopedBy.block a,
-#sidebarHelp.block a {
-    color: #222;
-    text-transform: uppercase;
-    text-decoration: underline
-}
+ #leftSidebar div.block span.blockTitle,
+ #rightSidebar div.block span.blockTitle {
+     padding: .5em 1em;
+     margin-bottom: 12px;
+     background: #4682b4 url(imgs/stripes.png);
+     display: block;
+     color: #fff;
+     font-weight: bold;
+     letter-spacing: 0
+ }
 
-#content h4 a,
-input[type=button],
-input[type=submit],
-table.tocArticle a {
-    text-decoration: none
-}
+ #sidebarDevelopedBy.block,
+ #sidebarHelp.block {
+     border: 1px solid #999!important;
+     border-radius: 4px;
+     padding: .5em 1em!important
+ }
 
-.block p {
-    margin: 0!important
-}
+ #sidebarDevelopedBy.block a,
+ #sidebarHelp.block a {
+     text-decoration: none
+ }
 
-.block ul {
-    list-style: none;
-    padding-left: 1.2em
-}
+ .block p {
+     margin: 0!important;
+     text-align: justify;
+     text-justify: inter-word
+ }
 
-.block li:before {
-    content: "\00BB";
-    display: block;
-    height: 0;
-    left: -1em;
-    position: relative;
-    width: 0
-}
+ .block ul {
+     padding-left: 1.2em;
+     list-style: none
+ }
 
-.banner-img,
-.indexers a,
-.intro {
-    display: inline-block
-}
+ .block li:before {
+     content: "";
+     border-color: transparent SteelBlue;
+     border-style: solid;
+     border-width: .35em 0 .35em .45em;
+     display: block;
+     height: 0;
+     width: 0;
+     left: -1em;
+     top: .9em;
+     position: relative
+ }
 
-#sidebarFontSize.block {
-    padding-bottom: 35px!important
-}
+ #sidebarFontSize.block {
+     padding-bottom: 35px!important
+ }
 
-table.tocArticle:nth-child(2n+1) tr {
-    background-color: #f0f0ff
-}
+ table.tocArticle:nth-child(odd) tr {
+     background-color: #e5eef5
+ }
 
-table.tocArticle:nth-child(2n) tr {
-    background-color: #f4f4f4
-}
+ table.tocArticle:nth-child(even) tr {
+     background-color: #f4f4f4
+ }
 
-table.tocArticle tr:hover {
-    background-color: #ffedcc
-}
+ table.tocArticle tr:hover {
+     background-color: #ffedcc
+ }
 
-table.tocArticle td {
-    padding: 5px 10px
-}
+ table.tocArticle td {
+     padding: 5px 10px
+ }
 
-.tocTitle {
-    font-weight: 700
-}
+ table.tocArticle a {
+     text-decoration: none
+ }
+
+ .tocTitle {
+     font-weight: bold
+ }
+
+ .tocAuthors {
+     font-style: italic
+ }
+
+ td.tocGalleys {
+     padding-right: 10px
+ }
+
+ #content ul.menu {
+     margin: 0
+ }
+
+ #content ul.menu li {
+     background-image: -webkit-linear-gradient(top, #2651ff 0, #4f72ff 100%);
+     background-image: -o-linear-gradient(top, #2651ff 0, #4f72ff 100%);
+     background-image: linear-gradient(to bottom, #2651ff 0, #4f72ff 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2651ff', endColorstr='#ff4f72ff', GradientType=0);
+     padding: 5px 8px;
+     border-radius: 3px
+ }
+
+ #content ul.menu li:hover,
+ #content ul.menu li.current {
+     background-image: -webkit-linear-gradient(top, #ec790f 0, #f28c31 100%);
+     background-image: -o-linear-gradient(top, #ec790f 0, #f28c31 100%);
+     background-image: linear-gradient(to bottom, #ec790f 0, #f28c31 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec790f', endColorstr='#fff28c31', GradientType=0)
+ }
+
+ #content ul.menu a {
+     color: #fff
+ }
+
+ #content ul.menu a:hover {
+     color: yellow
+ }
+
+ input.textField,
+ select.selectMenu,
+ textarea.textArea,
+ input.uploadField {
+     padding: .3em;
+     background-color: #f1f1f1;
+     border: 1px solid #aaa;
+     color: #444
+ }
+
+ input.textField:focus,
+ select.selectMenu:focus,
+ textarea.textArea:focus,
+ input.uploadField:focus {
+     border: 1px solid SteelBlue
+ }
+
+ input[type=submit],
+ input[type=button] {
+     background-image: -webkit-linear-gradient(top, #ddd 0, #c4c4c4 100%);
+     background-image: -o-linear-gradient(top, #ddd 0, #c4c4c4 100%);
+     background-image: linear-gradient(to bottom, #ddd 0, #c4c4c4 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdddddd', endColorstr='#ffc4c4c4', GradientType=0);
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     border-radius: 2px;
+     color: #444;
+     text-shadow: 1px 1px #f6f6f6;
+     padding: 3px 5px;
+     text-decoration: none;
+     border: 1px solid #9d9d9d
+ }
+
+ input[type=submit]:hover,
+ input[type=button]:hover {
+     background-image: -webkit-linear-gradient(top, #c4c4c4 0, #aaa 100%);
+     background-image: -o-linear-gradient(top, #c4c4c4 0, #aaa 100%);
+     background-image: linear-gradient(to bottom, #c4c4c4 0, #aaa 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc4c4c4', endColorstr='#ffaaaaaa', GradientType=0);
+     text-decoration: none;
+     cursor: pointer
+ }
+
+ input.defaultButton {
+     color: #2b2b2b;
+     font-weight: bold
+ }
+
+ div.separator {
+     border-bottom: 1px dotted #222
+ }
+
+ .indexers {
+     margin: 10px 0
+ }
+
+ .indexers a {
+     border: 2px solid transparent;
+     padding: 5px 3px;
+     display: inline-block
+ }
+
+ .indexers a:hover {
+     background: 0;
+     border: 2px dotted SteelBlue;
+     opacity: .75;
+     filter: alpha(opacity=75)
+ }
+
+ a img {
+     border: 0
+ }
+
+ div.thickSeparator {
+     margin-bottom: 10px
+ }
+
+ span.highlight {
+     background-color: #f4f4f4
+ }
+
+ .intro {
+     background-color: #f4f4f4;
+     border: 1px dotted Orange;
+     padding: 10px
+ }
+
+ .intro ul {
+     margin: 0;
+     padding-left: 1em
+ }
+
+ .issueCoverImage {
+     border: 1px solid #fff;
+     padding: 0;
+     margin: 0
+ }
+
+ .issueCoverImage img {
+     margin: 1em 2em 1em 0;
+     width: 100px;
+     border: 0 solid #fff;
+     max-width: 500px;
+     height: auto
+ }
+
+ #content h4 a {
+     text-decoration: none
+ }
+
+ #announcements {
+     width: auto
+ }
+
+ #journalDescription {
+     text-align: justify;
+     float: left;
+     width: 68%
+ }
+
+ #homepageImage {
+     float: right;
+     width: 30%;
+     margin-top: -1em;
+     margin-left: 12px;
+     margin-bottom: 25px;
+     text-align: right
+ }
+
+ #homepageImage img {
+     display: inline-block;
+     max-width: 100%;
+     max-height: auto
+ }
+
+ #announcementsHome,
+ .clear {
+     clear: both
+ }
+
+ #setupForm #homepageImage {
+     float: none;
+     width: auto;
+     text-align: left;
+     margin-top: 1em;
+     margin-left: 0
+ }
+
+ #setupForm #journalDescription {
+     float: none
+ }
+
+ #setupForm #homepageImage img,
+ #setupForm #journalThumbnail img {
+     display: inline;
+     margin: 5px 0
+ }
+
+ .selectMenu {
+     margin-right: 2px
+ }
+
+ #poweredby {
+     clear: both;
+     display: block;
+     margin: 0 auto 1em auto;
+     text-align: right;
+     width: 1080px;
+     padding-right: 12px
+ }
 
 .tocAuthors {
-    font-style: italic
-}
-
-td.tocGalleys {
-    padding-right: 10px
-}
-
-#content ul.menu {
-    margin: 0
-}
-
-#content ul.menu li {
-    background-image: linear-gradient(to bottom, #2651ff 0, #4f72ff 100%);
-    background-repeat: repeat-x;
-    border-radius: 3px;
-    padding: 5px 8px
-}
-
-#content ul.menu li.current,
-#content ul.menu li:hover {
-    background-image: linear-gradient(to bottom, #ec790f 0, #f28c31 100%);
-    background-repeat: repeat-x
-}
-
-#content ul.menu a {
-    color: #fff
-}
-
-#content ul.menu a:hover {
-    color: #ff0
-}
-
-input.textField,
-input.uploadField,
-select.selectMenu,
-textarea.textArea {
-    background-color: #f1f1f1;
-    border: 1px solid #aaa;
-    color: #444;
-    padding: .3em
-}
-
-input.textField:focus,
-input.uploadField:focus,
-select.selectMenu:focus,
-textarea.textArea:focus {
-    border: 1px solid #0d355e
-}
-
-input[type=button],
-input[type=submit] {
-    background-image: linear-gradient(to bottom, #ddd 0, #c4c4c4 100%);
-    background-repeat: repeat-x;
-    border: 1px solid #9d9d9d;
-    border-radius: 2px;
-    color: #444;
-    padding: 3px 5px;
-    text-shadow: 1px 1px #f6f6f6
-}
-
-input[type=button]:hover,
-input[type=submit]:hover {
-    background-image: linear-gradient(to bottom, #c4c4c4 0, #aaa 100%);
-    background-repeat: repeat-x;
-    cursor: pointer;
-    text-decoration: none
-}
-
-input.defaultButton {
-    color: #2b2b2b;
-    font-weight: 700
-}
-
-div.separator {
-    border-bottom: 1px dotted #222
-}
-
-.banner-img {
-    margin-bottom: 10px
-}
-
-.banner-img:hover {
-    opacity: .7;
-    filter: alpha(opacity=70)
-}
-
-.indexers {
-    margin: 10px 0
-}
-
-.indexers a {
-    border: 2px solid transparent;
-    padding: 5px 3px
-}
-
-.indexers a:hover {
-    background: 0 0;
-    border: 2px dotted navy;
-    opacity: .75;
-    filter: alpha(opacity=75)
-}
-
-.indexers a img {
-    height: 38px
-}
-
-a img {
-    border: 0
-}
-
-div.thickSeparator {
-    margin-bottom: 10px
-}
-
-span.highlight {
-    background-color: #ffff80
-}
-
-.intro {
-    background-color: #fff2db;
-    border: 1px dotted Orange;
-    padding: 10px
-}
-
-.intro ul {
-    margin: 0;
-    padding-left: 1em
-}
-
-.highlight {
-    background-color: #fffff0;
-    border: 1px dashed #ffa851;
-    padding-bottom: 6px;
-    padding-top: 6px
-}
-
-.issueCoverImage {
-    border: 1px solid #fff;
-    margin: 0;
-    padding: 0
-}
-
-.issueCoverImage img {
-    border: 0 solid #fff;
-    box-shadow: 4px 4px 6px #aaa;
-    margin: 1em 2em 1em 0;
-    width: 100px
-}
-
-.cover-image-intro {
-    border: 1px solid #eee;
-    box-shadow: 1px 1px 12px #ccc;
-    margin: 0 0 0 1em;
-    width: 100px
-}
-
-.color-box {
-    display: block;
-    float: left;
-    height: 40px;
-    margin-right: 5px;
-    width: 60px
-}
-
-.color1 {
-    background-color: #0d355e
-}
-
-.color1-light {
-    background-color: #f0f0ff
-}
-
-.color2 {
-    background-color: Orange
-}
-
-.color2-light {
-    background-color: #ffedcc
-}
-
-.color-grey-light {
-    background-color: #f4f4f4
-}
-
-#journalDescription {
-    float: left;
-    width: 60%
-}
-
-#homepageImage {
-    float: right;
-    width: 38%;
-    margin-bottom: 10px;
-}
-
-#homepageImage img {
-    height: auto;
-    max-width: 100%;
-    margin-top: -1em
-}
-
-#setupForm #homepageImage,
-#setupForm #journalDescription {
-    width: 100%
-}
-
-#setupForm #homepageImage img {
-    margin-left: 0;
-    margin-top: 0
-}
-
-#body {
-    display: none
-}
-
-#setupForm .uploadField {
-    width: 400px!important;
-    margin-right: 10px;
-    float: left!important
-}
-
-#sidebar {
-    float: right
-}
-
-.tocDOI,
-.articleDOI {
-    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-doi.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
-    margin-top: 4px;
-    padding-left: 30px
-}
-
-.tocAuthors {
-    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
     font-style: italic;
     margin-top: 4px;
     padding-bottom: 5px;
-    padding-left: 30px
+    padding-left: 30px;
 }
 
-.tocGaleyPdf {
-    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-pdf.png) no-repeat top right;
+.tocGalleys .file {
+    color: transparent;
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-pdf.png) no-repeat top right;
     height: 20px;
     width: 24px;
     display: inline-block;
-    float: right
+    float: right;
 }
 
-.tocGaleyFile {
-    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-file.png) no-repeat top right;
-    height: 20px
+#articleFullText .file {
+    color: transparent;
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-pdf.png) no-repeat top right;
+    height: 20px;
+    width: 24px;
+    display: inline-block;
+    float: left;
 }
 
-img {
-    margin: 0 12px 0 0
+#articleAbstract div {
+    text-align: justify
 }
 
-#developedBy {
-    text-transform: uppercase;
-    font-size: 0.95em;
+#articleCitations div {
+    text-align: justify
 }
 
-#sidebar div.block {
-    font-size: 1em;
-    padding-bottom: 1.5em;
+#journalTitleAndLogo img,
+#pageHeaderTitle img {
+    width: 100%;
+    height: auto;
 }
 
-#sidebar div.block span.blockTitle {
-    display: block;
-    padding: 0.5em 0 0.5em 0;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+#journalThumbnail img,
+#homepageImage img {
+    width: 300px;
+    height: auto;
 }
 
-#sidebar div.block span.blockSubtitle {
-    display: block;
-    padding: 0;
+#journalLogo img,
+#journalLogoImage img {
+    width: 100px;
+    height: auto;
 }
 
-#sidebar input.textField,
-#sidebar select.selectMenu,
-#sidebar input.button {
-    font-size: 1em;
+#journalFavicon img {
+    width: 80px;
+    height: auto;
 }
 
-#content h3 {
-    clear: both;
+p {
+    text-align: justify
+}
+
+/* ============ TABLET ============ */
+@media (min-width: 768px) {
+    #body {
+        box-sizing: border-box;
+    }
+    #navbar {
+        width: 1080px !important;
+    }
+    #main {
+        width: 865px;
+    }
+}
+
+/* ============ SMARTPHONE ============ */
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+    #container {
+        min-width:0 !important;
+    }
+    #headerTitle, #headerTitle img {
+        width: 100% !important;
+    }
+    #body {
+        width: 90% !important;
+    }
+    #main {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+    #sidebar {
+        display: none;
+    }
+    #rightSidebar {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+    #breadcrumb {
+        width: 95% !important;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    #navbar {
+        width: 100% !important;
+        height: auto;
+    }
+    #navbar ul li {
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    #content {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #journalDescription {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    
+    #homepageImage {
+        float: none;
+        text-align: left;
+        width: 90%;
+    }
+
+    #homepageImage img {
+        width: 100%;
+        display: block;
+    }
+
+    #announcementsHome, div.separator, .tocArticle, #pageFooter {
+        width: 100%;
+    }
+    
+    #pageFooter {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #pageFooter p {
+        text-align: center;
+    }
+
+    /*! responsive-nav.js 1.0.39 by @viljamis */
+
+    .nav-collapse ul {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: block;
+      list-style: none;
+    }
+
+    .nav-collapse li {
+      width: 100%;
+      display: block;
+    }
+
+    .js .nav-collapse {
+      clip: rect(0 0 0 0);
+      max-height: 0;
+      position: absolute;
+      display: block;
+      overflow: hidden;
+      zoom: 1;
+    }
+
+    .js.js-nav-active .nav-collapse-0.opened {
+      max-height: 9999px;
+	max-height:inherit !important;
+    }
+
+    .js-nav-active .js .nav-collapse-0.opened { max-height:inherit !important; }
+
+    .nav-toggle, .nav-toggle.active {
+      /*-webkit-tap-highlight-color: rgba(0,0,0,0);*/
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      padding: 15px;
+      padding-left: 35px;
+      display: block;
+      background: #333 url('imgs/burger-menu.png')no-repeat 15px 17px;
+      color:#fff !important;
+    }
+
+    #navbar a:before {
+        background: transparent;
+    }
+    #navbar a:after {
+        background: transparent;
+    }
+    #announcements {
+        width: 100%;
+    }
+}
+
+/* --------------- */
+
+/* Pengaturan utama teks seluruh halaman */
+
+/* Pengaturan Menu Utama*/
+#navbar{
+	background-color: #ff6600; /*untuk warna menu bar*/
+	margin-bottom: 30px;
+}
+
+#navbar a, #navbar a:link, #navbar a:visited {
+	color: #fff !important;
+	/*font-family: 'Merriweather', serif !important;*/
+	/*font-family: 'EB Garamond', serif !important;*/
+	text-transform: none;
+	/*font-size: 1.2em !important;*/
+}
+
+#navbar a:hover {
+	background-color: #ee2200;		/*untuk warna menu bar*/
+}
+
+#link a:active,a:link,a:visited{
+	color:#ff6600;				/*untuk warna tulisan yang berisi link*/
+	text-decoration:none
+}
+
+/* Pengaturan Side Menu yang menggunakan <ul class="sidemenu full"> */
+ul.sidemenu{
+	margin-top: -12px;
+	padding-left: 0px !important;
+}
+
+ul.sidemenu.full{
+	margin: -12px -12px 0 -12px;
+}
+
+ul.sidemenu li:before{
+	display: none;
+}
+
+ul.sidemenu li{
+	padding: 0;
+}
+
+ul.sidemenu li:first-child a{
+	border-top:1px solid #fff;		/*untuk warna pembatas menu paling atas dengan menu nav*/
+}
+
+ul.sidemenu li a{
+	display: block;
+	padding: 0.7em 12px 0.7em 12px;
+	border-bottom: 1px solid #fff;	/*untuk warna garis sidemenu*/
+	background-color: #ff6600;		/*untuk warna background sidemenu*/
+	text-decoration: none;
+	color: #fff;				/*untuk warna tulisan sidemenu*/
+}
+
+ul.sidemenu li a:hover {
+	background-color: #ee2200;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	text-decoration: underline;
+}
+
+.block li:before {
+  content: "";
+  border-color: transparent #ff6600;		/*untuk warna format bulleting*/
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+
+/* Pengaturan Title Block bawaan */
+#leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
+	/*font-family: 'EB Garamond', serif !important;*/
+	background-color: #ff6600 !important;		/*untuk warna menu block*/
+	color: #FFF !important;
+	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
+}
+
+/* Gambar Cover Table of Content*/
+#issueCoverImage img {
+	display: block;
+	border: 0;
+	max-width: 300px;
+	height: auto;
+}
+
+/*Buat kotak Quote yang menggunakan class="intro"*/
+.intro {
+  background-color: #f1faf5;
+  border: 1px dotted SeaGreen;
+  padding-bottom: 6px;
+  padding: 15px;
+  display: inline-block;
+}
+.intro ul {
+  margin: 0;
+  padding-left: 1em;
+}
+.color-box {
+  display: block;
+  width: 60px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
+}
+.color1 {
+  background-color: Gold;
+}
+.color1-light {
+  background-color: #fffbe5;
+}
+.color2 {
+  background-color: SeaGreen;
+}
+.color2-light {
+  background-color: #f1faf5;
+}
+.color-grey-light {
+  background-color: #f4f4f4;
 }
