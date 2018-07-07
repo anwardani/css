@@ -72,7 +72,7 @@
      margin: 0 auto;
      padding: 0;
      background-color: #ccc;
-     background-image: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/noisy_grid.png);
+     background-image: url(https://anwardani.github.io/css-ojs2/imgs/noisy_grid.png);
      width: auto;
      min-width: 730px;
      text-align: center;
@@ -83,7 +83,7 @@
      margin: 0;
      padding: 0;
      background-color: transparent;
-     background-image: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/noisy_grid.png);
+     background-image: url(https://anwardani.github.io/css-ojs2/imgs/noisy_grid.png);
      min-height: 150px
  }
 
@@ -324,7 +324,7 @@
  #rightSidebar div.block span.blockTitle {
      padding: .5em 1em;
      margin-bottom: 12px;
-     background: #4682b4 url(imgs/stripes.png);
+     background: #4682b4 url(https://anwardani.github.io/css-ojs2/imgs/stripes.png);
      display: block;
      color: #fff;
      font-weight: bold;
