@@ -952,7 +952,6 @@ ul.sidemenu li a:hover {
 .color-grey-light {
   background-color: #f4f4f4;
 }
-.footer-content{
-	width:30%;
-	float:left
+#footer-page, #footer-bottom {
+	display:none;
 }
