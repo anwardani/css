@@ -678,6 +678,9 @@ p {
     #main {
         width: 865px;
     }
+ #header {
+    min-height: 0px;
+  }
 }
 
 /* ============ SMARTPHONE ============ */
@@ -691,6 +694,9 @@ p {
   }
   .nav-toggle {
     display: none;
+  }
+ #header {
+    min-height: 0px;
   }
 }
 
@@ -823,6 +829,9 @@ p {
     #announcements {
         width: 100%;
     }
+ #header {
+    min-height: 0px;
+  }
 }
 
 /* --------------- */
