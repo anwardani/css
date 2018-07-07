@@ -110,7 +110,7 @@
      float: left;
      display: inline-block;
      margin-top: 13.33333333px;
-     margin-bottom: 40px;
+     margin-bottom: 0px;
      max-width: 1080px;
      height: auto
  }
@@ -184,7 +184,6 @@
 
  #navbar a:before,
  #navbar a:after {
-     content: '';
      position: absolute;
      top: 5px;
      display: block;
@@ -286,8 +285,8 @@
 
  #leftSidebar,
  #rightSidebar {
-     margin: 40px 0 0 0;
-     padding: 12px;
+     margin: 0;
+     padding: 1px 0px 0px 5px;
      background-color: transparent;
      background-image: none;
      font-size: 1em;
@@ -305,7 +304,7 @@
  }
 
  #rightSidebar {
-     width: 180px;
+     width: 205px;
      float: right;
      border-left-width: 1px;
      border-left-style: solid;
@@ -832,12 +831,12 @@ p {
 
 /* Pengaturan Menu Utama*/
 #navbar{
-	background-color: #ff6600; /*untuk warna menu bar*/
-	margin-bottom: 30px;
+	background-color: #a73f18; /*untuk warna menu bar*/
+	margin: 0px auto 40px auto;
 }
 
 #navbar a, #navbar a:link, #navbar a:visited {
-	color: #fff !important;
+	color: #f2ff00 !important;
 	/*font-family: 'Merriweather', serif !important;*/
 	/*font-family: 'EB Garamond', serif !important;*/
 	text-transform: none;
@@ -879,9 +878,9 @@ ul.sidemenu li a{
 	display: block;
 	padding: 0.7em 12px 0.7em 12px;
 	border-bottom: 1px solid #fff;	/*untuk warna garis sidemenu*/
-	background-color: #ff6600;		/*untuk warna background sidemenu*/
+	background-color: #a73f18;		/*untuk warna background sidemenu*/
 	text-decoration: none;
-	color: #fff;				/*untuk warna tulisan sidemenu*/
+	color: #f2ff00;				/*untuk warna tulisan sidemenu*/
 }
 
 ul.sidemenu li a:hover {
@@ -905,9 +904,10 @@ ul.sidemenu li a:hover {
 /* Pengaturan Title Block bawaan */
 #leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
 	/*font-family: 'EB Garamond', serif !important;*/
-	background-color: #ff6600 !important;		/*untuk warna menu block*/
-	color: #FFF !important;
+	background-color: #a73f18 !important;		/*untuk warna menu block*/
+	color: #f2ff00 !important;
 	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
+	text-align: center;
 }
 
 /* Gambar Cover Table of Content*/
