@@ -943,3 +943,13 @@ ul.sidemenu li a:hover {
 .color-grey-light {
   background-color: #f4f4f4;
 }
+#topbar{
+display:none;
+}
+#articleCitations br {
+    display: none;
+}
+#articleCitations {
+    clear: both;
+    padding-top: 5px;
+}
