@@ -150,7 +150,7 @@ h6 {
     float: left;
     display: inline-block;
     margin-top: 13.33333333px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     max-width: 1080px;
     height: auto
 }
@@ -183,7 +183,7 @@ h6 {
 }
 
 #navbar {
-    margin: 0 0 12px 0;
+    margin: 0 auto 12px auto;
     padding: 0;
     background-color: #012E6F;
     background-image: none;
@@ -224,7 +224,6 @@ h6 {
 
 #navbar a:before,
 #navbar a:after {
-    content: '';
     position: absolute;
     top: 5px;
     display: block;
@@ -324,8 +323,8 @@ ul.sidemenu li a:hover {
 
 #leftSidebar,
 #rightSidebar {
-    margin: 40px 0 0 0;
-    padding: 12px;
+    margin: 0;
+    padding: 5px;
     background-color: transparent;
     background-image: none;
     font-size: 1em;
