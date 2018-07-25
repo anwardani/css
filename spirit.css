@@ -666,3 +666,16 @@ div.separator { border-bottom:none; }
 .section_logo {float:left; text-align:center; vertical-align:baseline;min-height: 60px;}
 .item_logo { float:left; padding: 4px;  min-height: 60px; text-align:center; vertical-align:baseline;}
 .block p { margin: 0; }
+
+.block ul {
+    list-style: none;
+    padding: 1px;
+}
+.block ul li a {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    background-color: #dae9b1;
+    text-decoration: none;
+    color: #fff;
+}
