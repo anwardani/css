@@ -216,7 +216,7 @@ input.defaultButton {
 #navbar li:hover > a, .menu-primary li.current-cat > a, .menu-primary li.current_page_item > a, .menu-primary li.current-menu-item > a {
     color: #fff;
     outline: 0;
-    background: #a6ce39;
+    background: #dad6e4;
 }
 
 #topnav{	
