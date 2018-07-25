@@ -1,0 +1,1002 @@
+.color1,.color1-light,.color2,.color2-light{background-color:#ffff}.pull-right{float:right!important}.pull-left{float:left!important}.clear{clear:both}.cover-image-intro{margin:0 0 0 1em;width:100px;box-shadow:1px 1px 12px #ccc;border:1px solid #eee}.color-box{display:block;width:60px;height:40px;float:left;margin-right:5px}body{display:inline!important}.color-grey-light{background-color:#eeeeee}
+
+
+body {
+    background-color: #ddd;
+    background-image: url(http://www.mevjournal.com/plugins/themes/spica/imgs/noisy_grid.png);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0 0;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #222
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #37568a;
+    text-decoration: none
+}
+
+a:hover {
+    color: #fcc418;
+    background: none;
+    text-decoration: underline
+}
+
+#wrapper {
+    margin: 0 auto;
+    text-align: center
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px
+}
+
+#header {
+    background-color: transparent;
+    background-image: transparent;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0 0;
+    header-margin-top: 0;
+    header-margin-right: 0;
+    header-margin-bottom: 0;
+    header-margin-left: 0;
+    border-top: 0 solid #ccc;
+    border-bottom: 0 solid #ccc;
+    overflow: hidden;
+    height: 140px
+}
+
+.headerWrapper {
+    padding: 0 15px
+}
+
+#headerLogo {
+    margin-right: 30px;
+    float: left
+}
+
+.headerTitle {
+    display: block
+}
+
+.headerTitle>.wrap {
+    display: table;
+    height: 140px
+}
+
+.headerTitle>.wrap>h1 {
+    font-family: Teko, verdana, Georgia, "Times New Roman", Times, serif!important;
+    font-weight: 200!important;
+    text-transform: none;
+    font-size: 2.9em;
+    letter-spacing: 0;
+    color: #111;
+    text-shadow: 1px 1px #fff;
+    padding: 0!important
+}
+
+#boody {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px #aaa;
+    display: inline-block;
+    height: auto
+}
+
+#main {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+    display: inline;
+    float: left;
+    position: relative;
+    overflow: visible!important;
+    padding: 15px 0
+}
+
+#main h2 {
+    margin-top: .4em
+}
+
+#content {
+    font-size: 1em;
+    border: 0
+}
+
+#content a:hover {
+    text-decoration: underline
+}
+
+.col3 {
+    width: 608px!important
+}
+
+.col2left {
+    width: 813px!important;
+    padding-right: 6px!important
+}
+
+.col2right {
+    width: 783px!important;
+    padding-left: 6px!important
+}
+
+.col1 {
+    width: 1000px -12!important;
+    padding-left: 6px;
+    padding-right: 6px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Pathway Gothic One', "Times New Roman", Times, serif!important;
+    color: #000;
+    font-weight: normal;
+    text-align: left
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: normal
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: normal
+}
+
+h4 {
+    font-size: 1.6em;
+    font-weight: normal
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: normal
+}
+
+h6 {
+    font-size: .85em;
+    font-weight: normal
+}
+
+#navbar,
+#body #leftSidebar,
+#body #rightSidebar {
+    display: none
+}
+
+
+#cpr {
+    border: 0 none #fff
+}
+
+.pull-right {
+    float: right!important
+}
+
+.pull-left {
+    float: left!important
+}
+
+.clear {
+    clear: both
+}
+
+.quickSearch {
+    line-height: 42px;
+    height: 42px;
+    padding-right: 15px
+}
+
+.quickSearch .quickSearchText {
+    border: 1px solid #fff;
+    background-color: #f4f4f4;
+    width: 140px;
+    padding: .18em!important;
+    height: 1.33em
+}
+
+.quickSearch #simpleSearchForm {
+    float: right
+}
+
+.quickSearch .quickSearchButton {
+    font-size: 1em;
+    padding: -3.82em!important;
+    border: 1px solid #dbb900!important
+}
+
+.quickSearch .xmlOai {
+    display: inline-block;
+    float: right;
+    margin-left: 4px
+}
+
+.quickSearch .xmlOai a {
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/icon-xml.png) no-repeat center center;
+    display: block;
+    width: 24px;
+    height: 42px
+}
+
+#announcementsHome {
+    margin-bottom: 1em
+}
+
+#announcementsHome h3 {
+    text-align: left
+}
+
+#announcements {
+    width: auto
+}
+
+table.announcements td {
+    padding: .6em 0
+}
+
+table.tocArticle:nth-child(odd) tr {
+    background-color: #fffbe5
+}
+
+table.tocArticle:nth-child(even) tr {
+    background-color: #f4f4f4
+}
+
+table.tocArticle tr:hover {
+    background-color: #f1faf5
+}
+
+table.tocArticle td {
+    padding: 5px 10px
+}
+
+table.tocArticle a {
+    text-decoration: none
+}
+
+.tocTitle {
+    font-weight: bold
+}
+
+.tocAuthors {
+    font-style: italic
+}
+
+td.tocGalleys {
+    padding-right: 10px
+}
+
+td.tocArticleTitleAuthors {
+    width: 89%
+}
+
+td.tocArticleGalleysPages {
+    width: 11%
+}
+
+#articleTitle {
+    margin-bottom: .8em
+}
+
+.tocDOI,
+.articleDOI {
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/icon-doi.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
+    margin-top: 4px;
+    padding-left: 30px
+}
+
+.tocAuthors {
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
+    font-style: italic;
+    margin-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 30px
+}
+
+.tocTitle a {
+    font-weight: 700
+}
+
+.tocGaleyPdf {
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/icon-pdf.png) no-repeat top right;
+    height: 20px;
+    width: 24px;
+    display: inline-block;
+    float: right
+}
+
+.tocGaleyFile {
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/icon-file.png) no-repeat top right;
+    height: 20px
+}
+
+#content ul.menu {
+    display: block;
+    margin-bottom: 1em
+}
+
+#content ul.menu li {
+    margin: 0;
+    padding: 0
+}
+
+#content ul.menu li:hover a,
+#content ul.menu li.current a {
+    background-color: #3059ff
+}
+
+#content ul.menu a {
+    color: #fff;
+    background-color: #79b1db;
+    padding: .6em 1.2em;
+    border-radius: 4px;
+    display: inline-block
+}
+
+#content ul.menu a:hover {
+    color: yellow
+}
+
+input.textField,
+select.selectMenu,
+textarea.textArea,
+input.uploadField {
+    padding: .3em;
+    background-color: #f1f1f1;
+    border: 1px solid #aaa;
+    color: #444
+}
+
+input.textField:focus,
+select.selectMenu:focus,
+textarea.textArea:focus,
+input.uploadField:focus {
+    border: 1px solid Gold
+}
+
+input[type=submit],
+input[type=button] {
+    background-image: -webkit-linear-gradient(top, #ddd 0, #c4c4c4 100%);
+    background-image: -o-linear-gradient(top, #ddd 0, #c4c4c4 100%);
+    background-image: linear-gradient(to bottom, #ddd 0, #c4c4c4 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdddddd', endColorstr='#ffc4c4c4', GradientType=0);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #444;
+    text-shadow: 1px 1px #f6f6f6;
+    padding: 3px 5px;
+    text-decoration: none;
+    border: 1px solid #9d9d9d
+}
+
+input[type=submit]:hover,
+input[type=button]:hover {
+    background-image: -webkit-linear-gradient(top, #c4c4c4 0, #aaa 100%);
+    background-image: -o-linear-gradient(top, #c4c4c4 0, #aaa 100%);
+    background-image: linear-gradient(to bottom, #c4c4c4 0, #aaa 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc4c4c4', endColorstr='#ffaaaaaa', GradientType=0);
+    text-decoration: none;
+    cursor: pointer
+}
+
+input.defaultButton {
+    color: #2b2b2b;
+    font-weight: bold
+}
+
+div.separator {
+    border-bottom: 1px dotted #222
+}
+
+.banner-img {
+    display: inline-block;
+    margin-bottom: 10px
+}
+
+.banner-img:hover {
+    opacity: .7;
+    filter: alpha(opacity=70)
+}
+
+.indexers {
+    margin: 15px 0
+}
+
+.indexers a {
+    border: 2px solid transparent;
+    display: inline-block;
+    padding: 5px 3px
+}
+
+.indexers a:hover {
+    background: transparent none repeat scroll 0 0;
+    border: 2px dotted Gold;
+    opacity: .75;
+    filter: alpha(opacity=75)
+}
+
+.indexers a img {
+    height: 38px
+}
+
+a img {
+    border: 0
+}
+
+div.thickSeparator {
+    margin-bottom: 10px
+}
+
+span.highlight {
+    background-color: #ffff80
+}
+
+.intro {
+    background-color: #f1faf5;
+    border: 1px dotted SeaGreen;
+    padding-bottom: 6px;
+    padding: 15px;
+    display: inline-block
+}
+
+.intro ul {
+    margin: 0;
+    padding-left: 1em
+}
+
+.color-box {
+    display: block;
+    width: 60px;
+    height: 40px;
+    float: left;
+    margin-right: 5px
+}
+
+.color1 {
+    background-color: Gold
+}
+
+.color1-light {
+    background-color: #fffbe5
+}
+
+.color2 {
+    background-color: SeaGreen
+}
+
+.color2-light {
+    background-color: #f1faf5
+}
+
+.color-grey-light {
+    background-color: #f4f4f4
+}
+
+#setupForm #homepageImage {
+    float: none
+}
+
+#pageFooter {
+    margin-top: 30px;
+    padding: 15px 0;
+    display: block
+}
+
+#designBy {
+    padding: 15px;
+    text-align: right;
+    display: block;
+    font-size: .9em
+}
+
+.r {
+    background-color: #fee
+}
+
+body.editorialTeam {
+    background-color: #fff!important;
+    background-image: none!important;
+    margin: 10px
+}
+
+body.editorialTeam #header {
+    height: 50px;
+    background-image: url(http://www.mevjournal.com/plugins/themes/spica/imgs/noisy_grid.png)
+}
+
+body.editorialTeam #body {
+    display: block;
+    box-shadow: none
+}
+
+body.editorialTeam #main {
+    margin: 0 auto;
+    float: none
+}
+
+a.back-to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: Gold url(http://www.mevjournal.com/plugins/themes/spica/imgs/cd-top-arrow.svg) no-repeat center 43%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    opacity: .7;
+    filter: alpha(opacity=70)
+}
+
+a:hover.back-to-top {
+    background-color: #ffe766
+}
+
+body.helpTpl {
+    background-color: #fff!important;
+    background-image: none!important;
+    padding: 15px
+}
+
+body.helpTpl #body {
+    box-shadow: none;
+    display: block
+}
+
+body.helpTpl #sidebar {
+    box-shadow: none;
+    font-size: .9em
+}
+
+body.rtTpl {
+    background-color: #fff!important;
+    background-image: none!important
+}
+
+body.rtTpl #header {
+    height: 100px;
+    background-color: #fffbe5;
+    border-bottom: 1px solid #aaa
+}
+
+body.rtTpl #header h1 {
+    padding: 0 15px;
+    line-height: 100px
+}
+
+body.rtTpl #body {
+    padding: 15px
+}
+
+body.rtTpl #content {
+    padding: 0
+}
+
+body.rtTpl form {
+    margin: 20px 0
+}
+
+body.rtTpl #citation {
+    padding: 1em 0
+}
+
+.tree,
+.tree ul {
+    margin: 0 0 0 1em;
+    padding: 0;
+    list-style: none;
+    color: #aaa;
+    position: relative
+}
+
+.tree ul {
+    margin-left: .5em
+}
+
+.tree:before,
+.tree ul:before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-left: 1px solid
+}
+
+.tree li {
+    margin: 0;
+    padding: 0 1.5em;
+    line-height: 2em;
+    font-weight: bold;
+    position: relative
+}
+
+.tree li:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 0;
+    border-top: 1px solid;
+    margin-top: -1px;
+    position: absolute;
+    top: 1em;
+    left: 0
+}
+
+.tree li:last-child:before {
+    background: white;
+    height: auto;
+    top: 1em;
+    bottom: 0
+}
+
+.tip-yellowsimple {
+    z-index: 1000;
+    text-align: left;
+    border: 1px solid #c7bf93;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 6px 8px;
+    min-width: 50px;
+    max-width: 300px;
+    color: #000;
+    background-color: #fff9c9
+}
+
+.tip-yellowsimple .tip-inner {
+    font: 12px/16px arial, helvetica, sans-serif
+}
+
+.tip-yellowsimple .tip-arrow-top {
+    margin-top: -6px;
+    margin-left: -5px;
+    top: 0;
+    left: 50%;
+    width: 9px;
+    height: 6px;
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/tip-yellowsimple_arrows.gif) no-repeat
+}
+
+.tip-yellowsimple .tip-arrow-right {
+    margin-top: -4px;
+    margin-left: 0;
+    top: 50%;
+    left: 100%;
+    width: 6px;
+    height: 9px;
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/tip-yellowsimple_arrows.gif) no-repeat -9px 0
+}
+
+.tip-yellowsimple .tip-arrow-bottom {
+    margin-top: 0;
+    margin-left: -5px;
+    top: 100%;
+    left: 50%;
+    width: 9px;
+    height: 6px;
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/tip-yellowsimple_arrows.gif) no-repeat -18px 0
+}
+
+.tip-yellowsimple .tip-arrow-left {
+    margin-top: -4px;
+    margin-left: -6px;
+    top: 50%;
+    left: 0;
+    width: 6px;
+    height: 9px;
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/tip-yellowsimple_arrows.gif) no-repeat -27px 0
+}
+
+#naavbar {
+    clear: both;
+    padding: 0;
+    text-align: left;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: Gold;
+    background-image: -webkit-linear-gradient(top, Gold 0, #ffdd29 100%);
+    background-image: -o-linear-gradient(top, Gold 0, #ffdd29 100%);
+    background-image: linear-gradient(to bottom, Gold 0, #ffdd29 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffd700', endColorstr='#ffffdd29', GradientType=0);
+    height: 42px;
+    box-shadow: none
+}
+
+#naavbar ul.menu {
+    margin: 0 0 0 15px;
+    padding: 0
+}
+
+#naavbar ul.menu li {
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+#naavbar ul.menu a,
+#naavbar ul.menu a:link,
+#naavbar ul.menu a:visited {
+    font-family: 'Pathway Gothic One', "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 1.33em;
+    letter-spacing: 0;
+    color: #222;
+    line-height: 42px;
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+#naavbar ul.menu a:before,
+#naavbar ul.menu a:after {
+    content: '';
+    top: 11px;
+    display: block;
+    height: 20px;
+    width: 1px;
+    float: left;
+    position: relative
+}
+
+#naavbar ul.menu a:before {
+    left: -10px;
+    opacity: .15;
+    filter: alpha(opacity=15);
+    background: rgba(0, 0, 0, .8);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0))
+}
+
+#naavbar ul.menu a:after {
+    left: -10px;
+    opacity: .35;
+    filter: alpha(opacity=35);
+    background: rgba(255, 255, 255, .8);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, .01), #fff, rgba(255, 255, 255, .01));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0))
+}
+
+#naavbar ul.menu li:first-child a:before,
+#naavbar ul.menu li:first-child a:after {
+    background-color: black;
+    display: none
+}
+
+#naavbar ul.menu a:hover {
+    background: #e6c200;
+    text-shadow: 1px 1px #e6c200
+}
+
+#naavbar ul.menu a:active {
+    background: none;
+    text-decoration: underline
+}
+
+#leftSidebar,
+#rightSidebar {
+    font-size: .96em;
+    height: auto;
+    overflow: hidden
+}
+
+#leftSidebar {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ccc;
+    width: 150px;
+    float: left
+}
+
+#rightSidebar {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ccc;
+    width: 180px;
+    float: right
+}
+
+#rightSidebar div.block,
+#leftSidebar div.block {
+    border: 0;
+    padding: 0 0 25px 0;
+    color: inherit
+}
+
+#leftSidebar div.block span.blockTitle,
+#rightSidebar div.block span.blockTitle,
+#sidebarDevelopedBy.block,
+#sidebarHelp.block {
+    font-family: 'Pathway Gothic One', "Times New Roman", Times, serif;
+    font-size: 1.4em;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #222;
+    background-color: #ddd;
+    background-image: url(http://www.mevjournal.com/plugins/themes/spica/imgs/stripes.png);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+    padding-top: .3em;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: .3em;
+    display: block
+}
+
+.block p {
+    margin: 0!important
+}
+
+.block ul {
+    padding-left: .4em;
+    list-style: none
+}
+
+.block li:before {
+    content: "\00BB";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-right: .5em
+}
+
+#sidebarFontSize.block {
+    padding-bottom: 35px!important
+}
+
+#sidebarDevelopedBy.block a,
+#sidebarHelp.block a {
+    text-decoration: none
+}
+
+#homepageImage {
+    float: left;
+    margin-left: 0;
+    margin-right: 15px;
+    width: auto
+}
+
+.issueCoverImage {
+    border: 1px solid #fff;
+    padding: 0;
+    margin: 0
+}
+
+.issueCoverImage img {
+    margin: 1em 2em 1em 0;
+    width: 100px;
+    border: 0 solid #fff;
+    border: 2px solid #fff;
+    padding: 3px
+}
+
+.issueCoverImage img:hover {
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+    box-shadow: 7px 7px 6px #f1faf5;
+    border: 2px solid Gold
+}
+
+#content h4 a {
+    text-decoration: none
+}
+
+ul.sidemenu {
+    margin-top: -15px;
+    margin-bottom: 0;
+    padding-left: 0!important
+}
+
+ul.sidemenu li:before {
+    display: none
+}
+
+ul.sidemenu li {
+    padding: 0
+}
+
+ul.sidemenu.full li {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+ul.sidemenu li a {
+    display: block;
+    padding: .74em 15px;
+    border-bottom: 1px solid #b9b9b9;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    color: #37568a
+}
+
+ul.sidemenu li a:hover {
+    background-color: #fff7cc;
+    text-decoration: underline
+}
+
+#breadcrumb {
+    padding-top: 2px;
+    font-size: .9em
+}
+
+#breadcrumb>.wrap {
+    border-bottom: 1px dotted #aaa;
+    padding-top: .3em;
+    padding-bottom: .3em
+}
+
+#breadcrumb,
+#content {
+    padding-left: 15px;
+    padding-right: 15px
+}
