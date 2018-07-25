@@ -665,3 +665,4 @@ div.separator { border-bottom:none; }
 .iaes_logo { float:left; width: 140px; text-align:center; }
 .section_logo {float:left; text-align:center; vertical-align:baseline;min-height: 60px;}
 .item_logo { float:left; padding: 4px;  min-height: 60px; text-align:center; vertical-align:baseline;}
+.block p { margin: 0; }
