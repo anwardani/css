@@ -111,20 +111,11 @@ input.defaultButton {
 	width: 100%;
 	padding: 0;
 	margin: 0 auto;
-	
-	/*background:#C2EBFE;*/
-	background-image:url(http://portalgaruda.org/ourfiles/header-bg2.jpg);
-	/*background-color:#3399FF;*/
+	background-color:#734382;
 	color:#FFFFFF;
 	text-align: center;
 	height: 160px;
-	/*border-top: 8px solid #3EA3BF;*/
-	border-bottom: 4px solid #FFCC00;
-	
-	/*-webkit-box-shadow: 0px 0px 6px #3F88A0; 
-	box-shadow: 0px 0px 6px #3F88A0;
-	-moz-box-shadow: 0px 0px 6px #3F88A0;
-	-o-box-shadow: 0px 0px 6px #3F88A0;*/
+	border-bottom: 4px solid #DBD7E5;
 }
 
 #headerTitle {
@@ -168,7 +159,7 @@ input.defaultButton {
 	border: none;
 	/*font-family: Georgia, "Times New Roman", Times, serif;*/
 	font-size: 1.6em;
-	color: #549315;
+	color: #734382;
 	text-shadow: none;
 }
 
@@ -177,7 +168,7 @@ input.defaultButton {
 	padding-top: 0em;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-weight: normal;
-	color: #007500;
+	color: #734382;
 }
 
 
@@ -188,8 +179,10 @@ input.defaultButton {
 	padding-bottom: 0;
 	padding-left: 4px;
 	padding-right: 4px; 	
-	background-color:#74B118; 
-	border-left:1px solid #74B118;  border-right:1px solid #74B118; border-bottom:1px solid #74B118; 
+	background-color:#734382; 
+	border-left:1px solid #734382;
+	border-right:1px solid #734382;
+	border-bottom:1px solid #734382; 
 	-moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; 
 	-webkit-border-bottom-right-radius: 8px; -webkit-border-bottom-left-radius: 8px; 
 	border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;
@@ -574,7 +567,7 @@ div.separator {
 
 #rightSidebar div.block {
 	background-color:#FFFFFF;
-	border:1px solid #a6ce39;
+	border:1px solid #734382;
 	margin-top: 8px;
 	padding: 4px;
 	-webkit-box-shadow: 2px 2px 4px #CACACA; /* Safari */
@@ -589,7 +582,7 @@ div.separator {
 	}
 
 #rightSidebar span.blockTitle {
-	background-color: #a6ce39;
+	background-color: #734382;
 	color:#FFFFFF;
 	border-bottom: 1px solid #999999;
 	font-weight:bold;
@@ -675,7 +668,7 @@ div.separator { border-bottom:none; }
     display: block;
     padding: 5px;
     border-bottom: 1px solid #fff;
-    background-color: #dae9b1;
+    background-color: #c3aacb;
     text-decoration: none;
     color: #fff;
 }
