@@ -3,7 +3,6 @@ body {
 	padding: 0;
 	background-color: #FFFFFF;
 	color: #666666;
-	/*font-family: Verdana,Arial,Helvetica,sans-serif;*/
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1em;
 }
@@ -13,7 +12,7 @@ div {
 }
 
 p {
-	margin: 1em 0; /* Making default stylesheet explicit - fixes IE7 margin collapsing. */
+	margin: 1em 0;
 }
 
 table {
@@ -158,7 +157,7 @@ input.defaultButton {
 	border: none;
 	/*font-family: Georgia, "Times New Roman", Times, serif;*/
 	font-size: 1.6em;
-	color: #734382;
+	color: #3bb1ae;
 	text-shadow: none;
 }
 
@@ -167,7 +166,7 @@ input.defaultButton {
 	padding-top: 0em;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-weight: normal;
-	color: #734382;
+	color: #3bb1ae;
 }
 
 
@@ -178,10 +177,10 @@ input.defaultButton {
 	padding-bottom: 0;
 	padding-left: 4px;
 	padding-right: 4px; 	
-	background-color:#734382; 
-	border-left:1px solid #734382;
-	border-right:1px solid #734382;
-	border-bottom:1px solid #734382; 
+	background-color:#3bb1ae; 
+	border-left:1px solid #3bb1ae;
+	border-right:1px solid #3bb1ae;
+	border-bottom:1px solid #3bb1ae; 
 	-moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; 
 	-webkit-border-bottom-right-radius: 8px; -webkit-border-bottom-left-radius: 8px; 
 	border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;
@@ -215,7 +214,7 @@ input.defaultButton {
 #navbar li:hover > a, .menu-primary li.current-cat > a, .menu-primary li.current_page_item > a, .menu-primary li.current-menu-item > a {
     color: #fff;
     outline: 0;
-    background: #dad6e4;
+    background: #7de1df;
 }
 
 #topnav{	
@@ -566,7 +565,7 @@ div.separator {
 
 #rightSidebar div.block {
 	background-color:#FFFFFF;
-	border:1px solid #734382;
+	border:1px solid #3bb1ae;
 	margin-top: 8px;
 	padding: 4px;
 	-webkit-box-shadow: 2px 2px 4px #CACACA; /* Safari */
@@ -581,7 +580,7 @@ div.separator {
 	}
 
 #rightSidebar span.blockTitle {
-	background-color: #734382;
+	background-color: #3bb1ae;
 	color:#FFFFFF;
 	border-bottom: 1px solid #999999;
 	font-weight:bold;
