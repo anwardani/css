@@ -114,7 +114,7 @@ input.defaultButton {
 	background-color:#734382;
 	color:#FFFFFF;
 	text-align: center;
-	height: 160px;
+	height: auto;
 	border-bottom: 4px solid #DBD7E5;
 }
 
@@ -127,11 +127,11 @@ input.defaultButton {
 }
 
 #header h1 {
-	/*margin: 0 auto;*/
 	color: #FFFFFF;
-	/*padding: 0.5em 0 0.25em 10%;*/
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
+	padding:0;
+	text-align:center;
 }
 
 #footer {
