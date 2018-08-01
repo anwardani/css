@@ -6,7 +6,7 @@
 }
 
 #navbar {
-    background-color: #4e80bb;
+    background-color: navy;
     background-repeat: repeat-x;
     border: 0;
     height: 40px;
@@ -31,7 +31,7 @@
 #navbar a,
 #navbar a:link,
 #navbar a:visited {
-    color: #ffff01;
+    color: #fff;
     display: inline-block;
     font-size: .6em;
     font-weight: 700;
@@ -70,7 +70,7 @@
 }
 
 #navbar a:hover {
-    background: #104583;
+    background: #000067;
     text-shadow: 1px 1px #000067
 }
 
@@ -86,11 +86,12 @@
 #rightSidebar div.block span.blockTitle,
 #sidebarDevelopedBy.block,
 #sidebarHelp.block {
-    background: #2a579d;
+    background: url(stripes.png) #ccc
 }
 
 #body,
-#main {
+#main,
+body {
     background-color: #fff
 }
 
@@ -115,7 +116,8 @@
 #container,
 #headerTitle,
 #headerTitle img {
-    display: inline-block
+    display: inline-block;
+background-color:#ffffff ;
 }
 
 #header,
@@ -127,7 +129,8 @@ ul.sidemenu li:before {
 body {
     color: #333;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px
+    font-size: 18px;
+background-color:#EBECE9 ;
 }
 
 a:active,
@@ -144,6 +147,8 @@ a:hover {
 }
 
 #container {
+    /* background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/cloth.png); */
+    background: url(http://jurnal.uinsu.ac.id/index.php/zero/manager/files/noisy_grid.png);
     min-width: 730px!important;
     text-align: center
 }
@@ -180,6 +185,7 @@ a:hover {
     margin-right: 0!important;
     overflow: visible!important;
     padding: 0;
+    background: transparent none;
     position: relative;
     width: 805px;
     display: none
@@ -201,7 +207,7 @@ a:hover {
 
 ul.sidemenu li a,
 ul.sidemenu li:first-child a {
-    border-top: 1px solid #d5a6d0
+    border-top: 1px solid #80abce
 }
 
 ul.sidemenu {
@@ -214,7 +220,7 @@ ul.sidemenu li {
 }
 
 ul.sidemenu li a {
-    background-color: #4e80bb;
+    background: #000080;
     border-bottom: 1px solid #315c80;
     color: #fff;
     display: block;
@@ -234,7 +240,7 @@ ul.sidemenu li:last-child a {
 }
 
 ul.sidemenu li a:hover {
-    background-color: #104583;
+    background-color: #5a5a9e;
     text-decoration: underline
 }
 
@@ -268,7 +274,7 @@ ul.sidemenu li a:hover {
     border-left: 1px solid #ccc;
     float: right;
     width: 191px;
-    background-color: #f2f2f2
+    background: transparent none
 }
 
 #leftSidebar div.block,
@@ -283,17 +289,18 @@ ul.sidemenu li a:hover {
 #rightSidebar div.block span.blockTitle,
 #sidebarDevelopedBy.block,
 #sidebarHelp.block {
-    color: #fff;
+    color: #222;
     display: block;
     letter-spacing: 0;
     margin-bottom: 10px;
+    background: #dadada url(http://journal.uinsgd.ac.id/public/site/images/bbusro/stripes1.png);
     padding: .4em 10px!important;
     text-transform: uppercase
 }
 
 #sidebarDevelopedBy.block a,
 #sidebarHelp.block a {
-    color: #fff;
+    color: #222;
     text-transform: uppercase;
     text-decoration: underline
 }
@@ -546,7 +553,7 @@ span.highlight {
 #homepageImage {
     float: right;
     width: 38%;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 #homepageImage img {
@@ -581,13 +588,13 @@ span.highlight {
 
 .tocDOI,
 .articleDOI {
-    background: url(http://ijain.org/files/doi.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
+    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-doi.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
     margin-top: 4px;
     padding-left: 30px
 }
 
 .tocAuthors {
-    background: url(/public/site/images/admin/icons/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
+    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
     font-style: italic;
     margin-top: 4px;
     padding-bottom: 5px;
@@ -595,7 +602,7 @@ span.highlight {
 }
 
 .tocGaleyPdf {
-    background: url(http://ijain.org/files/pdf.png) no-repeat top right;
+    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-pdf.png) no-repeat top right;
     height: 20px;
     width: 24px;
     display: inline-block;
@@ -603,21 +610,43 @@ span.highlight {
 }
 
 .tocGaleyFile {
-    background: url(http://ijain.org/files/pdf.png) no-repeat top right;
+    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-file.png) no-repeat top right;
     height: 20px
 }
-#articleAbstract p{
-    text-align:justify;
+
+img {
+    margin: 15px 12px 0 0
 }
-.abstrak p{
-    text-align:justify;
+
+#developedBy {
+    text-transform: uppercase;
+    font-size: 0.95em;
 }
-#topBar{
-    display:none;
+
+#sidebar div.block {
+    font-size: 1em;
+    padding-bottom: 1.5em;
 }
-body{
-background-image:url(/public/site/bg.png);
-background-repeat:repeat;
-background-attachment:scroll;
-background-position:0 0;
+
+#sidebar div.block span.blockTitle {
+    display: block;
+    padding: 0.5em 0 0.5em 0;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+#sidebar div.block span.blockSubtitle {
+    display: block;
+    padding: 0;
+}
+
+#sidebar input.textField,
+#sidebar select.selectMenu,
+#sidebar input.button {
+    font-size: 1em;
+}
+
+#content h3 {
+    clear: both;
 }
