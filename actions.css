@@ -82,13 +82,6 @@
     display: inline-block!important
 }
 
-#leftSidebar div.block span.blockTitle,
-#rightSidebar div.block span.blockTitle,
-#sidebarDevelopedBy.block,
-#sidebarHelp.block {
-    background: url(stripes.png) #ccc
-}
-
 #body,
 #main,
 body {
