@@ -81,6 +81,9 @@
 #main {
     display: inline-block!important
 }
+#leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle, #sidebarDevelopedBy.block, #sidebarHelp.block {
+    background: ##000080;
+}
 
 #body,
 #main,
