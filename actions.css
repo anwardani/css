@@ -154,7 +154,8 @@ a:hover {
 }
 
 #headerTitle {
-    width: 1020px
+    width: 1020px;
+    background: #000080;
 }
 
 #header h1 {
