@@ -278,19 +278,6 @@ ul.sidemenu li a:hover {
     margin-bottom: 10px
 }
 
-#leftSidebar div.block span.blockTitle,
-#rightSidebar div.block span.blockTitle,
-#sidebarDevelopedBy.block,
-#sidebarHelp.block {
-    color: #ffff;
-    display: block;
-    letter-spacing: 0;
-    margin-bottom: 10px;
-    background: ##000080;
-    padding: .4em 10px!important;
-    text-transform: uppercase
-}
-
 #sidebarDevelopedBy.block a,
 #sidebarHelp.block a {
     color: #222;
@@ -642,4 +629,16 @@ img {
 
 #content h3 {
     clear: both;
+}
+#leftSidebar div.block span.blockTitle,
+#rightSidebar div.block span.blockTitle,
+#sidebarDevelopedBy.block,
+#sidebarHelp.block {
+    color: #ffff;
+    display: block;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    background: ##000080;
+    padding: .4em 10px!important;
+    text-transform: uppercase
 }
