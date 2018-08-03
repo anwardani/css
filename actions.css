@@ -170,7 +170,8 @@ a:hover {
 
 #headerTitle img {
     float: left;
-    margin-right: 20px
+    margin-right: 20px;
+    background-color: #000080;
 }
 
 #body {
@@ -289,11 +290,11 @@ ul.sidemenu li a:hover {
 #rightSidebar div.block span.blockTitle,
 #sidebarDevelopedBy.block,
 #sidebarHelp.block {
-    color: #222;
+    color: #ffff;
     display: block;
     letter-spacing: 0;
     margin-bottom: 10px;
-    background: #dadada url(http://journal.uinsgd.ac.id/public/site/images/bbusro/stripes1.png);
+    background: #000080;
     padding: .4em 10px!important;
     text-transform: uppercase
 }
