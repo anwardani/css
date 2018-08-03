@@ -81,8 +81,12 @@
 #main {
     display: inline-block!important
 }
-#leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle, #sidebarDevelopedBy.block, #sidebarHelp.block {
-    background: ##000080;
+
+#leftSidebar div.block span.blockTitle,
+#rightSidebar div.block span.blockTitle,
+#sidebarDevelopedBy.block,
+#sidebarHelp.block {
+    background: url(stripes.png) #ccc
 }
 
 #body,
@@ -109,8 +113,9 @@ body {
 }
 
 #body,
-#container
-{
+#container,
+#headerTitle,
+#headerTitle img {
     display: inline-block;
 background-color:#ffffff ;
 }
@@ -149,8 +154,7 @@ a:hover {
 }
 
 #headerTitle {
-    width: 1020px;
-    background-color: #000080;
+    width: 1020px
 }
 
 #header h1 {
@@ -279,6 +283,19 @@ ul.sidemenu li a:hover {
     color: inherit;
     padding: 0 0 10px;
     margin-bottom: 10px
+}
+
+#leftSidebar div.block span.blockTitle,
+#rightSidebar div.block span.blockTitle,
+#sidebarDevelopedBy.block,
+#sidebarHelp.block {
+    color: #222;
+    display: block;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    background: #dadada url(http://journal.uinsgd.ac.id/public/site/images/bbusro/stripes1.png);
+    padding: .4em 10px!important;
+    text-transform: uppercase
 }
 
 #sidebarDevelopedBy.block a,
@@ -598,7 +615,7 @@ span.highlight {
 }
 
 img {
-    margin: 0
+    margin: 15px 12px 0 0
 }
 
 #developedBy {
@@ -632,16 +649,4 @@ img {
 
 #content h3 {
     clear: both;
-}
-#leftSidebar div.block span.blockTitle,
-#rightSidebar div.block span.blockTitle,
-#sidebarDevelopedBy.block,
-#sidebarHelp.block {
-    color: #ffff;
-    display: block;
-    letter-spacing: 0;
-    margin-bottom: 10px;
-    background: ##000080;
-    padding: .4em 10px!important;
-    text-transform: uppercase
 }
