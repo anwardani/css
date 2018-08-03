@@ -113,9 +113,8 @@ body {
 }
 
 #body,
-#container,
-#headerTitle,
-#headerTitle img {
+#container
+{
     display: inline-block;
 background-color:#ffffff ;
 }
@@ -154,7 +153,8 @@ a:hover {
 }
 
 #headerTitle {
-    width: 1020px
+    width: 1020px;
+    background-color: #000080;
 }
 
 #header h1 {
@@ -289,11 +289,11 @@ ul.sidemenu li a:hover {
 #rightSidebar div.block span.blockTitle,
 #sidebarDevelopedBy.block,
 #sidebarHelp.block {
-    color: #222;
+    color: #ffff;
     display: block;
     letter-spacing: 0;
     margin-bottom: 10px;
-    background: #dadada url(http://journal.uinsgd.ac.id/public/site/images/bbusro/stripes1.png);
+    background: ##000080;
     padding: .4em 10px!important;
     text-transform: uppercase
 }
