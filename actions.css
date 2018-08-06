@@ -147,8 +147,7 @@ a:hover {
 }
 
 #container {
-    /* background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/cloth.png); */
-    background: url(http://jurnal.uinsu.ac.id/index.php/zero/manager/files/noisy_grid.png);
+    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/noisy_grid.png);
     min-width: 730px!important;
     text-align: center
 }
