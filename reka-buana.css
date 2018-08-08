@@ -148,12 +148,12 @@ h6 {
 #navbar {
     margin: 0 auto 42px auto;
     padding: 0;
-    background-color: #db0016;
+    background-color: #9d4d82;
     background-image: none;
     clear: both;
     text-align: left;
     border: 0;
-    height: 40px;
+    height: 45px;
     width: 1080px;
 }
 
@@ -214,7 +214,7 @@ h6 {
 }
 
 #navbar a:hover {
-    background: #e16b77;
+    background: #3f75a2;
     text-shadow: 1px 1px #3f75a2
 }
 
@@ -254,7 +254,7 @@ ul.sidemenu li a {
 }
 
 ul.sidemenu li a:hover {
-    background-color: #e16b77;
+    background-color: #3a6d98;
     text-decoration: underline
 }
 
@@ -826,21 +826,24 @@ table.announcements td.description {
 
 /* Pengaturan Menu Utama*/
 #navbar{
-	background-color: #db0016; /*untuk warna menu bar*/
+	background-color: #9d4d82; /*untuk warna menu bar*/
 	margin-bottom: 30px;
 }
 
 #navbar a, #navbar a:link, #navbar a:visited {
 	color: #fff !important;
+	/*font-family: 'Merriweather', serif !important;*/
+	/*font-family: 'EB Garamond', serif !important;*/
 	text-transform: none;
+	/*font-size: 1.2em !important;*/
 }
 
 #navbar a:hover {
-	background-color: #e16b77;		/*untuk warna menu bar*/
+	background-color: #842765;		/*untuk warna menu bar*/
 }
 
 #link a:active,a:link,a:visited{
-	color:#db0016;				/*untuk warna tulisan yang berisi link*/
+	color:#842765;				/*untuk warna tulisan yang berisi link*/
 	text-decoration:none
 }
 
@@ -870,13 +873,13 @@ ul.sidemenu li a{
 	display: block;
 	padding: 0.7em 12px 0.7em 12px;
 	border-bottom: 1px solid #fff;	/*untuk warna garis sidemenu*/
-	background-color: #db0016;		/*untuk warna background sidemenu*/
+	background-color: #9d4d82;		/*untuk warna background sidemenu*/
 	text-decoration: none;
 	color: #fff;				/*untuk warna tulisan sidemenu*/
 }
 
 ul.sidemenu li a:hover {
-	background-color: #e16b77;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	background-color: #842765;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
 	text-decoration: underline;
 }
 
@@ -896,7 +899,7 @@ ul.sidemenu li a:hover {
 /* Pengaturan Title Block bawaan */
 #leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
 	/*font-family: 'EB Garamond', serif !important;*/
-	background-color: #db0016 !important;		/*untuk warna menu block*/
+	background-color: #9d4d82 !important;		/*untuk warna menu block*/
 	color: #FFF !important;
 	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
 }
@@ -942,14 +945,4 @@ ul.sidemenu li a:hover {
 }
 .color-grey-light {
   background-color: #f4f4f4;
-}
-#topbar{
-display:none;
-}
-#articleCitations br {
-    display: none;
-}
-#articleCitations {
-    clear: both;
-    padding-top: 5px;
 }
