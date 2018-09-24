@@ -125,7 +125,7 @@
  }
 
  #body {
-     margin: -40px auto 12px auto;
+     margin: 0px auto 12px auto;
      padding: 0 0 24px 0;
      background-color: #fff;
      background-image: none;
@@ -295,7 +295,7 @@
  #leftSidebar,
  #rightSidebar {
      margin: 0;
-     padding: 1px 0px 0px 5px;
+     padding: 52px 0px 0px 5px;
      background-color: transparent;
      background-image: none;
      font-size: 1em;
