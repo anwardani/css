@@ -974,16 +974,16 @@ ul.sidemenu li a:hover {
 	display:none;
 }
 #main {
-   border: 0;
+   border: none;
 }
 #container {
     width: 100% !important;
 }
 #header {
-    box-shadow: 0;
+    box-shadow: none;
 }
 #leftSidebar, #rightSidebar {
-box-shadow: 0;
+box-shadow: none;
 }
 #navbar {
    margin: 0px auto px auto;
