@@ -984,3 +984,4 @@ ul.sidemenu li a:hover {
     background: none;
     margin-top: 10px;
 }
+div.warningMessage { display: none; }
