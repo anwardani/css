@@ -954,3 +954,6 @@ display:none;
     padding-top: 5px;
 }
 div.warningMessage { display:none; }
+#content h3 {
+   clear: both;
+}
