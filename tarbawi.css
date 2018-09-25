@@ -279,7 +279,7 @@ ul.sidemenu li a:hover {
 
 #leftSidebar,
 #rightSidebar {
-    margin: -2px 0 0 0;
+    margin: 40px 0 0 0;
     padding: 12px;
     background-color: transparent;
     background-image: none;
