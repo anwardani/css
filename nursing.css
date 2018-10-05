@@ -966,4 +966,18 @@ ul.sidemenu li a:hover {
 #footer-page, #footer-bottom {
 	display:none;
 }
-
+#main {
+   border: 0;
+}
+#container {
+    width: 100% !important;
+}
+#header {
+    box-shadow: 0;
+}
+#leftSidebar, #rightSidebar {
+box-shadow: 0;
+}
+#navbar {
+   margin: 0px auto px auto;
+}
