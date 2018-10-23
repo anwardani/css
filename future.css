@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Teko:400,700|Pathway+Gothic+One);
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Lato');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url(https://fonts.googleapis.com/css?family=Teko:400,700|Pathway+Gothic+One);
 
 /*--- clear.css ---*/
 .color1,.color1-light,.color2,.color2-light{background-color:#ffff}.pull-right{float:right!important}.pull-left{float:left!important}.clear{clear:both}.cover-image-intro{margin:0 0 0 1em;width:100px;box-shadow:1px 1px 12px #ccc;border:1px solid #eee}.color-box{display:block;width:60px;height:40px;float:left;margin-right:5px}body{display:inline!important}.color-grey-light{background-color:#eeeeee}
@@ -10,22 +9,23 @@ body {
     padding: 0;
     background-color: transparent;
     background-image: none;
-    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-family: 'Lato', Helvetica, sans-serif;
     font-weight: normal;
     font-size: 14px;
+    line-height: 1.5;
     display: none;
-    color: #222
+    color: #000
 }
 
 a:link,
 a:visited,
 a:active {
-    color: Crimson;
+    color: SteelBlue;
     text-decoration: none
 }
 
 a:hover {
-    color: Crimson;
+    color: SteelBlue;
     background: none;
     text-decoration: underline
 }
@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Pathway Gothic One', "Times New Roman", Times, serif!important;
+    font-family: 'Lato', Times, sans-serif!important;
     color: #000;
     font-weight: normal;
     text-align: left
@@ -76,9 +76,9 @@ h6 {
     margin: 0 auto;
     padding: 0;
     background-color: #ccc;
-    background-image: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsCrimson/imgs/noisy_grid.png);
+    background-image: url(http://www.mevjournal.com/plugins/themes/spica/imgs/noisy_grid.png);
     width: auto;
-    min-width: 730px!important;
+    min-width: 730px;
     text-align: center;
     display: inline-block
 }
@@ -87,7 +87,7 @@ h6 {
     margin: 0;
     padding: 0;
     background-color: transparent;
-    background-image: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsCrimson/imgs/noisy_grid.png);
+    background-image: url(http://www.mevjournal.com/plugins/themes/spica/imgs/noisy_grid.png);
     min-height: 150px
 }
 
@@ -98,7 +98,7 @@ h6 {
 }
 
 #header h1 {
-    font-family: Teko, verdana, Georgia, "Times New Roman", Times, serif!important;
+    font-family: 'Lato', verdana, sans-serif!important;
     font-weight: 200!important;
     text-transform: none;
     font-size: 3.2em;
@@ -149,10 +149,10 @@ h6 {
 #navbar {
     margin: 0 0 12px 0;
     padding: 0;
-    background-color: Crimson;
+    background-color: Green;
     background-image: none;
     clear: both;
-    text-align: center;
+    text-align: left;
     border: 0;
     height: 40px;
     width: 1080px
@@ -173,17 +173,17 @@ h6 {
 #navbar a,
 #navbar a:link,
 #navbar a:visited {
-    font-family: 'Pathway Gothic One', "Times New Roman", Times, serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 1.3em!important;
+    font-size: 1em!important;
     text-transform: none;
     letter-spacing: 0;
-    color: #eef300;
+    color: #fff;
     line-height: 40px;
     display: inline-block;
     margin: 0;
-    padding-left: 15px;
-    padding-right: 15px
+    padding-left: 13px;
+    padding-right: 13px
 }
 
 #navbar a:before,
@@ -225,13 +225,17 @@ h6 {
 }
 
 #navbar a:hover {
-    background: #c51236;
-    text-shadow: 1px 1px #c51236
+    background: #3f75a2;
+    text-shadow: 1px 1px #3f75a2
 }
 
 #navbar a:active {
     background: none;
     text-decoration: underline
+}
+
+ul.sidemenu li:first-child a {
+    border-top: 1px solid #315c80
 }
 
 ul.sidemenu {
@@ -254,14 +258,14 @@ ul.sidemenu li {
 ul.sidemenu li a {
     display: block;
     padding: .7em 12px .7em 12px;
-    border-bottom: 1px solid #b5b5b5;
-    background-color: #eee;
+    border-bottom: 1px solid #315c80;
+    background-color: #4682b4;
     text-decoration: none;
-    color: #222
+    color: #fff
 }
 
 ul.sidemenu li a:hover {
-    background-color: #fcdae1;
+    background-color: #3a6d98;
     text-decoration: underline
 }
 
@@ -279,8 +283,6 @@ ul.sidemenu li a:hover {
     padding-left: 12px;
     padding-right: 12px
 }
-
-/* Copyright (c) themeOJS - http://www.themeojs.com */
 
 #cpr {
     border: 0 none #fff
@@ -326,9 +328,9 @@ ul.sidemenu li a:hover {
 #rightSidebar div.block span.blockTitle {
     padding: .5em 1em;
     margin-bottom: 12px;
-    background: #dadada url(imgs/stripes.png);
+    background: #4682b4 url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/stripes.png);
     display: block;
-    color: #444;
+    color: #fff;
     letter-spacing: 0
 }
 
@@ -346,7 +348,8 @@ ul.sidemenu li a:hover {
 
 .block p {
     margin: 0!important;
-    text-align: justify
+    text-align: justify;
+    text-justify: inter-word
 }
 
 .block ul {
@@ -356,7 +359,7 @@ ul.sidemenu li a:hover {
 
 .block li:before {
     content: "";
-    border-color: transparent Crimson;
+    border-color: transparent SteelBlue;
     border-style: solid;
     border-width: .35em 0 .35em .45em;
     display: block;
@@ -372,7 +375,7 @@ ul.sidemenu li a:hover {
 }
 
 table.tocArticle:nth-child(odd) tr {
-    background-color: #fef1f4
+    background-color: #e5eef5
 }
 
 table.tocArticle:nth-child(even) tr {
@@ -380,7 +383,7 @@ table.tocArticle:nth-child(even) tr {
 }
 
 table.tocArticle tr:hover {
-    background-color: #d7e4ef
+    background-color: #ffedcc
 }
 
 table.tocArticle td {
@@ -448,7 +451,7 @@ input.textField:focus,
 select.selectMenu:focus,
 textarea.textArea:focus,
 input.uploadField:focus {
-    border: 1px solid Crimson
+    border: 1px solid SteelBlue
 }
 
 input[type=submit],
@@ -500,13 +503,9 @@ div.separator {
 
 .indexers a:hover {
     background: 0;
-    border: 2px dotted Crimson;
+    border: 2px dotted SteelBlue;
     opacity: .75;
     filter: alpha(opacity=75)
-}
-
-.indexers a img {
-    height: auto
 }
 
 a img {
@@ -523,7 +522,7 @@ span.highlight {
 
 .intro {
     background-color: #f4f4f4;
-    border: 1px dotted SteelBlue;
+    border: 1px dotted Orange;
     padding: 10px
 }
 
@@ -557,7 +556,7 @@ span.highlight {
 #journalDescription {
     text-align: justify;
     float: left;
-    width: 68%
+    width: 100%
 }
 
 #homepageImage {
@@ -612,7 +611,7 @@ span.highlight {
 }
 
 .tocAuthors {
-    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsCrimson/imgs/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
     font-style: italic;
     margin-top: 4px;
     padding-bottom: 5px;
@@ -621,7 +620,7 @@ span.highlight {
 
 .tocGalleys .file {
     color: transparent;
-    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsCrimson/imgs/icon-pdf.png) no-repeat top right;
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-pdf.png) no-repeat top right;
     height: 20px;
     width: 24px;
     display: inline-block;
@@ -630,7 +629,7 @@ span.highlight {
 
 #articleFullText .file {
     color: transparent;
-    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsCrimson/imgs/icon-pdf.png) no-repeat top right;
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-pdf.png) no-repeat top right;
     height: 20px;
     width: 24px;
     display: inline-block;
@@ -673,334 +672,199 @@ p {
     line-height: 1.5
 }
 
-/* -------------------- */
-
-/* TYPOGRAPHY */
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Lato', Helvetica, sans-serif !important;
-	color: #242424;
+table.announcements td.description {
+    width: 100%;
+    text-align: justify;
 }
 
-#header h1 {
-    font-family: 'Lato', Helvetica, sans-serif !important;
-    font-weight: 400 !important;
-    text-transform: none;
-    font-size: 2em;
-    letter-spacing: 0;
-    color: #fcfcfc;
-    text-shadow: none;
-    padding: 20px !important;
-    line-height: 1.5;
-    margin-top: 0;
+/* ============ TABLET ============ */
+
+@media (min-width: 768px) {
+    #body {
+        box-sizing: border-box;
+    }
+    #navbar {
+        width: 1080px !important;
+    }
+    #main {
+        width: 865px;
+    }
 }
 
-#link a:active, a:link, a:visited {
-	color: #31496C;	
-	text-decoration: none;
-	-o-transition: .3s;
-	-ms-transition: .3s;
-	-moz-transition: .3s;
-	-webkit-transition: .3s;
+/* ============ SMARTPHONE ============ */
+
+@media screen and (min-width: 40em) {
+    .js .nav-collapse {
+        position: relative;
+    }
+    .js .nav-collapse.closed {
+        max-height: none;
+    }
+    .nav-toggle {
+        display: none;
+    }
 }
 
-#link a:hover {
-	color: #3cb467;
-	text-decoration: none;
+@media (max-width: 480px) {
+    #container {
+        min-width: 0 !important;
+    }
+    #headerTitle,
+    #headerTitle img {
+        width: 100% !important;
+    }
+    #body {
+        width: 90% !important;
+    }
+    #main {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+    #sidebar {
+        display: none;
+    }
+    #rightSidebar {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+    #breadcrumb {
+        width: 95% !important;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    #navbar {
+        width: 100% !important;
+        height: auto;
+    }
+    #navbar ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    #content {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #journalDescription {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    #homepageImage {
+        float: none;
+        text-align: left;
+        width: 90%;
+    }
+    #homepageImage img {
+        width: 100%;
+        display: block;
+    }
+    #announcementsHome,
+    div.separator,
+    .tocArticle,
+    #pageFooter {
+        width: 100%;
+    }
+    #pageFooter {
+        text-align: center;
+        margin: 20px 0;
+    }
+    #pageFooter p {
+        text-align: center;
+    }
+    /*! responsive-nav.js 1.0.39 by @viljamis */
+    .nav-collapse ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: block;
+        list-style: none;
+    }
+    .nav-collapse li {
+        width: 100%;
+        display: block;
+    }
+    .js .nav-collapse {
+        clip: rect(0 0 0 0);
+        max-height: 0;
+        position: absolute;
+        display: block;
+        overflow: hidden;
+        zoom: 1;
+    }
+    .js.js-nav-active .nav-collapse-0.opened {
+        max-height: 9999px;
+        max-height: inherit !important;
+    }
+    .js-nav-active .js .nav-collapse-0.opened {
+        max-height: inherit !important;
+    }
+    .nav-toggle,
+    .nav-toggle.active {
+        /*-webkit-tap-highlight-color: rgba(0,0,0,0);*/
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+        padding: 15px;
+        padding-left: 35px;
+        display: block;
+        background: #333 url('https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/burger-menu.png')no-repeat 15px 17px;
+        color: #fff !important;
+    }
+    #navbar a:before {
+        background: transparent;
+    }
+    #navbar a:after {
+        background: transparent;
+    }
+    #announcements {
+        width: 100%;
+    }
+}
 }
 
-p {
-	line-height: 1.5;
-	text-align: left;
-}
+/* --------------- */
 
-/* MAIN STRUCTURE */
+/* Pengaturan utama teks seluruh halaman */
 
-#container {
-	width: 100% !important;
-	min-width: 280px !important;
-	background-color: #fcfcfc;
-	overflow: hidden;
-}
-
-body {
-	font-family: 'Lato', Helvetica, sans-serif;
-	font-size: 15px;
-}
-
-#body {
-	background-color: #fcfcfc;
-	width: 1140px !important;
-}
-
-.wrapper {
-	margin: 20px auto;
-}
-
-[class*="col-"] {
-  	margin-bottom: 20px;
-  	min-height: 30px;
-  	padding: 20px;
-}
-
-@media all and (max-width: 500px) {
-	.no-mobile {
-		display: none;
-	}
-}
-
-@media all and (min-width: 500px) {
-  	.wrapper {
-  		padding: 0 20px;
-		background-color: #e1e1e1;
-	 	padding-top: 20px;
-	 	border-radius: 5px;
-  	}
-
-  	.row {
-  		display: flex;
-  	}
-
-  	[class*="col-"] {
-  		margin-right: 20px;
-  	}
-
-  	[class*="col-"]:last-child {
-  		margin-right: 0;
-  	}
-
-  	.col-1 {
-  		flex: 1;
-  	}
-
-  	.col-2 {
-  		flex: 2;
-  	}
-
-  	.col-3 {
-  		flex: 3;
-  	}
-
-  	.col-4 {
-  		flex: 4;
-  	}
-
-  	.col-5 {
-  		flex: 5;
-  	}
-
-  	.col-6 {
-  		flex: 6;
-  	}
-
-  	.col-7 {
-  		flex: 7;
-  	}
-
-  	.col-8 {
-  		flex: 8;
-  	}
-
-  	.col-9 {
-  		flex: 9;
-  	}
-
-  	.col-10 {
-  		flex: 10;
-  	}
-
-  	.col-11 {
-  		flex: 11;
-  	}
-
-  	.col-12 {
-  		flex: 12;
-  	}
-}
-
-@media all and (min-width: 1000px) {
-	.wrapper {
-		max-width: 1000px;
-	}
-}
-
-.sticky {
-  top: 0;
-  position:fixed;
-  width: 100%;
-  max-height: 150px;
-}
-
-.no-back {
-	background-color: #fcfcfc;
-  }
-
-.warn {
-	background: #FFDB4D;
-}
-
-.note {
-	background: #5CADFF;
-	color: #fff;
-}
-
-.error {
-	background: #FF5353;
-	color: #fff;
-}
-
-.correct {
-	background: #33D685;
-	color: #fff;
-}
-
-.rounded {
-	border-radius: 100px;
-}
-
-.top-r {
-	border-top-right-radius: 100px;
-}
-
-.top-l {
-	border-top-left-radius: 100px;
-}
-
-.bottom-r {
-	border-bottom-right-radius: 100px;
-}
-
-.bottom-l {
-	border-bottom-left-radius: 100px;
-}
-
-.rad-l {
-	border-radius: 100px 0 0 100px;
-}
-
-.rad-r {
-	border-radius: 0 100px 100px 0;
-}
-
-.hidden-col {
-	visibility: hidden;
-}
-
-.text-left {
-	text-align: left;
-}
-
-.text-right {
-	text-align: right;
-}
-
-.back-img { /* Use on columns only */
-	background-image: url();
-	height: 150px;
-	background-size: cover;
-	color: #fcfcfc;
-}
-
-.full-width {
-	margin-bottom: 0;
-}
-
-.full-width:last-child {
-	margin-bottom: 20px;
-}
-
-.space-off,
-.space-off:last-child {
-  	margin-bottom: 0;
-}
-
-@media all and (min-width: 500px) {
-	.full-width {
-    	margin-bottom: 20px;
-    	margin-right: 0;
-  }
-
-  .space-off,
-  .space-off:last-child {
-    	margin-bottom: 0;
-  }
-}
-
-/* CONTENT */
-
-#main > h2, #content {
-	padding-left: 15px !important;
-}
-
-/* HEADER */
-
-#header {
-	background-color: #31496C;
-	background-image: none;
-}
-
-/* NAVBAR */
-
+/* Pengaturan Menu Utama*/
 #navbar{
-	background-color: #31496C;
+	background: Green;		/*untuk warna menu bar*/
 	margin-bottom: 30px;
-	width: 1140px;
 }
 
 #navbar a, #navbar a:link, #navbar a:visited {
+	/*font-family: 'EB Garamond', serif !important;*/	/*jenis font*/
 	text-transform: none;
-	font-size: 1em !important;
-	font-family: 'Lato', Helvetica, sans-serif;
-	-o-transition: .3s;
-	-ms-transition: .3s;
-	-moz-transition: .3s;
-	-webkit-transition: .3s;
+	/*font-size: 1.2em !important;*/
 }
 
 #navbar a:hover {
-	background-color: #31496C;
-	color: #3cb467;
-	text-shadow: none;
+	background-color: #375;		/*untuk warna menu bar ketika pointer diarahkan ke menu bar*/
 }
 
-/* BREADCRUMBS */
-
-#breadcrumb {
-	margin: 0 12px 1em 15px;
-	border-bottom: 0px solid #cad5e6;
-	color: #6d7587;
-	font-size: 0.8rem;
+#link a:active,a:link,a:visited{
+	color: Green;				/*untuk warna tulisan yang berisi link*/
+	text-decoration:none
 }
 
-#breadcrumb a {
-    font-weight: 400;
-    color: #6d7587;
-    font-size: 0.8rem;
-}
 
-#breadcrumb a:hover {
-	color: #404750;
-}
-
-#breadcrumb a.current {
-    font-weight: 400;
-    color: #6d7587;
-    font-size: 0.8rem;
-}
-
-#breadcrumb a.current:hover {
-	color: #404750;
-}
-
-/* SIDEBAR */
-
+/* Pengaturan Side Menu yang menggunakan <ul class="sidemenu full"> */
 ul.sidemenu{
 	margin-top: -12px;
 	padding-left: 0px !important;
 }
 
 ul.sidemenu.full{
-	margin: 12px -12px 0 -12px;
+	margin: -12px -12px 0 -12px;
 }
 
 ul.sidemenu li:before{
@@ -1011,321 +875,98 @@ ul.sidemenu li{
 	padding: 0;
 }
 
-ul.sidemenu li a {
-	display: block;
-	padding: 0.7em 12px 0.7em 12px;
-	border-bottom: 1px solid #fcfcfc;
-	background-color: #fcfcfc;
-	font-family: 'Lato', Helvetica, sans-serif;
-	text-decoration: none;
-	color: #31496C;
-	font-size: 1em;
+ul.sidemenu li:first-child a{
+	border-top:1px solid #116611		/*untuk warna pembatas menu paling atas dengan menu nav*/
 }
 
+ul.sidemenu li a{
+	display: block;
+	padding: 0.7em 12px 0.7em 12px;
+	border-bottom: 1px solid #116611;	/*untuk warna garis sidemenu*/
+	background-color: Green;		/*untuk warna background sidemenu*/
+	text-decoration: none;
+	color: #FFF;				/*untuk warna tulisan sidemenu*/
+}
 
 ul.sidemenu li a:hover {
-	background-color: #fcfcfc;
-	color: #3cb467;
-	text-decoration: none;
+	background-color: #375;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	text-decoration: underline;
 }
 
 .block li:before {
-  content: "";
-  border-color: transparent #31496C;
-  border-style: solid;
-  border-width: 0.35em 0 0.35em 0.45em;
-  display: block;
-  height: 0;
-  width: 0;
-  left: -1em;
-  top: 0.9em;
-  position: relative;
+	content: "";
+	border-color: transparent #375;		/*untuk warna format bulleting*/
+	border-style: solid;
+	border-width: 0.35em 0 0.35em 0.45em;
+	display: block;
+	height: 0;
+	width: 0;
+	left: -1em;
+	top: 0.9em;
+	position: relative;
 }
 
+/* Pengaturan Sidebar Kanan dan Kiri */
+#leftSidebar,#rightSidebar{
+	margin:40px 0 0 0;
+	padding:5px;
+	background-color:#eeeeee;		/*untuk warna background sidebar*/
+	background-image:none;
+	font-size:1em;
+	height:auto;
+	overflow:hidden
+}
+
+/* Pengaturan Title Block bawaan */
 #leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
-	padding: 0 0 10px 0;
-	border-bottom: 1px solid #cad5e6;
-	background: #fcfcfc;
-	color: #242424;
-	text-transform: none !important;
-	font-size: 1.15em;
+	/*font-family: 'EB Garamond', serif !important;*/	/*jenis font*/
+	background-color: Green;		/*untuk warna menu block*/
+	color: #FFF;
+	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
 }
 
-#rightSidebar {
-	width: 200px;
-	padding-left: 24px;
-	padding-right: 24px;
-	margin-top: 60px;
-	border-left-color: #cad5e6;
-}
-
-/* JOURNAL DESCRIPTION */
-
-#journalDescription {
-	text-align: left;
-	width: 100%;
-}
-
-#journalDescription > p {
-	text-align: left;
-}
-
-#homepageImage {
-	display: none;
-}
-
-/* ANNOUNCEMENTS SECTION */
-
-.announcements .headseparator, .announcements .endseparator {
-	border-top: 1px solid #cad5e6 !important;
-}
-
-table.announcements td {
-	padding: 0.5em 0;
-}
-
-table.announcements td.description {
-	width: 100%;
-	line-height: 1.5;
-}
-
-/* BUTTONS */
-
-.btn-ijb {
-	display: inline-block;
-	padding: 10px 20px;
-	margin: 1rem auto;
-	border-radius: 5px;
-	background-color: #31496C;
-	color: #fcfcfc !important;
-	text-decoration: none;
-	font-weight: 400;
-	text-align: center;
-}
-
-.btn-ijb-block {
+/* Gambar Cover Table of Content*/
+#issueCoverImage img {
 	display: block;
-}
-
-.btn-ijb-139 {
-	display: block;
-	text-align: left;
-}
-
-.btn-ijb:hover, .btn-ijb:active {
-	background-color: #3cb467 !important;
-}
-
-input[type="submit"], input[type="button"] {
-    border-radius: 5px;
-    color: #fcfcfc;
-    text-shadow: none;
-    padding: 10px 20px;
-    border: 0px;
-    background: #31496c;
-    -o-transition: .3s;
-	-ms-transition: .3s;
-	-moz-transition: .3s;
-	-webkit-transition: .3s;
-}
-
-input[type="submit"]:hover, input[type="button"]:hover {
-    background-color: #3cb467;
-    background-image: none;
-}
-
-input.defaultButton {
-    font-weight: 400;
-}
-
-/* TEXT FIELDS */
-
-input.textField, select.selectMenu, textarea.textArea, input.uploadField {
-    border-radius: 3px;
-    padding: .5em;
-    border: 1px solid #dcdcdc;
-	color: #6c6c6c;
-}
-
-/* TABLE OF CONTENTS */
-
-.tocArticle:nth-child(2n) tr {
-    background-color: #fcfcfc !important;
-}
-
-.tocArticle:nth-child(2n+1) tr {
-    background-color: #fcfcfc !important;
-}
-
-.tocArticleTitleAuthors {
-    width: 90%;
-}
-
-.tocArticleTitleAuthors.showCoverImage {
-    width: 70%;
-}
-
-.tocArticle {
-    width: 100%;
-    padding: 15px 0;
-    border-bottom: 1px solid #cad5e6;
-}
-
-.tocAuthors {
-	background: none;
-	padding-left: 0;
-	color: #6d7587;
-	font-style: normal;
-}
-
-
-.tocDOI > span > i > a {
-    font-style: normal;
-}
-
-/* INDEXERS */
-
-.indexers a {
 	border: 0;
+	max-width: 300px;
+	height: auto;
 }
 
-.indexers a:hover {
-    border: 0;
+/*Buat kotak Quote yang menggunakan class="intro"*/
+.intro {
+  background-color: #f1faf5;
+  border: 1px dotted SeaGreen;
+  padding-bottom: 6px;
+  padding: 15px;
+  display: inline-block;
 }
-
-.indexed-in a img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-	-o-transition: .3s;
-	-ms-transition: .3s;
-	-moz-transition: .3s;
-	-webkit-transition: .3s;
+.intro ul {
+  margin: 0;
+  padding-left: 1em;
 }
-
-.indexed-in a img:hover {
-    filter: grayscale(0);
+.color-box {
+  display: block;
+  width: 60px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
 }
-
-/* MISCELLANEA */
-
-.separator {
-    border-bottom: 1px solid #cad5e6;
+.color1 {
+  background-color: Gold;
 }
-
-/* FIX GRAMMARLY BUG */
-
-.gr__tooltip {
-    position: relative !important;
+.color1-light {
+  background-color: #fffbe5;
 }
-
-/* RESPONSIVE */
-
-@media (max-width: 1140px) { /* 1140px */
-	#headerTitle {
-		width: 100%;
-	}
-
-	#headerTitle img {
-	    max-width: 100%;
-	}
-
-    #body {
-    	width: 100% !important;
-    }
-
-    #main {
-    	width: 77%;
-    }
-
-    #rightSidebar {
-    	width: 17%;
-    }
-
-    #navbar {
-    	width: 100vw;
-    }
-
-    #navbar a::after {
-    	opacity: 0;
-    }
-
-    #rightSidebar {
-    	width: 17%;
-    }
+.color2 {
+  background-color: SeaGreen;
 }
-
-@media(max-width: 1061px) {
-	#navbar {
-		height: auto;
-	}
-
-	#rightSidebar {
-		margin-top: 100px;
-	}
+.color2-light {
+  background-color: #f1faf5;
 }
-
-@media (max-width: 940px) {
-    #main {
-    	width: 75%;
-    }
+.color-grey-light {
+  background-color: #f4f4f4;
 }
-
-@media (max-width: 767px) { /* 767px */
-	#body {
-		display: flex;
-		flex-direction: column;
-		width: 100% !important;
-	}
-
-	#sidebar {
-		order: 2;
-	}
-
-	#rightSidebar {
-		width: 90%;
-		margin: 30px 0 0 0;
-		padding: 0 5%;
-	}
-
-	.sidebarcover {
-		width: 15rem;
-	}
-
-	#main {
-		order: 1;
-		width: 100%;
-	}
-
-	#headerTitle {
-		width: 100%;
-	}
-
-	#headerTitle img {
-		max-width: 127%;
-		float: right;
-		overflow: hidden;
-	}
-
-	#navbar {
-		width: 100%;
-		height: auto;
-	}
-
-	#navbar a::before {
-		opacity: 0;
-	}
-
-	#navbar a::after {
-		opacity: 0;
-	}
-
-	.btn-ijb-block {
-		display: inline-block;
-	}
-
-	.btn-ijb-139 {
-		display: inline-block;
-		width: 139px;
-		margin: 0.3rem auto;
-	}
+#content h3 {
+    clear: both;
 }
