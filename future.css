@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Teko:400,700|Pathway+Gothic+One');
+@import url(https://fonts.googleapis.com/css?family=Teko:400,700|Pathway+Gothic+One);
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Lato');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -178,7 +178,7 @@ h6 {
     font-size: 1.3em!important;
     text-transform: none;
     letter-spacing: 0;
-    color: #fff;
+    color: #eef300;
     line-height: 40px;
     display: inline-block;
     margin: 0;
@@ -1329,4 +1329,3 @@ input.textField, select.selectMenu, textarea.textArea, input.uploadField {
 		margin: 0.3rem auto;
 	}
 }
-/* end file */
