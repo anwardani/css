@@ -178,7 +178,7 @@ h6 {
     font-size: 1em!important;
     text-transform: none;
     letter-spacing: 0;
-    color: #fff;
+    color: #fffc00;
     line-height: 40px;
     display: inline-block;
     margin: 0;
@@ -969,4 +969,7 @@ ul.sidemenu li a:hover {
 }
 #content h3 {
     clear: both;
+}
+li#search {
+    display: none;
 }
