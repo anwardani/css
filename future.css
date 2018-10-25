@@ -885,7 +885,7 @@ ul.sidemenu li a{
 	border-bottom: 1px solid #116611;	/*untuk warna garis sidemenu*/
 	background-color: Green;		/*untuk warna background sidemenu*/
 	text-decoration: none;
-	color: #FFF;				/*untuk warna tulisan sidemenu*/
+	color: #fffc00;				/*untuk warna tulisan sidemenu*/
 }
 
 ul.sidemenu li a:hover {
