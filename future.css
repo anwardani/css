@@ -921,7 +921,7 @@ ul.sidemenu li a:hover {
 #leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
 	/*font-family: 'EB Garamond', serif !important;*/	/*jenis font*/
 	background-color: Green;		/*untuk warna menu block*/
-	color: #FFF;
+	color: #fffc00;
 	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
 }
 
