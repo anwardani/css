@@ -1,3 +1,210 @@
+/* custom style for al-Balagh */
+
 body {
-    background-color: #daf9d8
+    background-color: #ffeab8
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: tahoma, arial, verda, sans-serif, helvetica
+}
+
+#main h2,
+#main h3,
+#main h4,
+#main h4 a,
+#main li a,
+.article-data a {
+    color: #755000
+}
+
+#container {
+    background-color: #fff
+}
+
+.mycustom-background {
+    background: #f4e2b3!important;
+    padding-left: 5pt
+}
+
+#articleAbstract {
+    text-align: justify
+}
+
+#header,
+#mainmenu,
+.dropdown-menu,
+.dropdown-menu.submenu {
+    background-color: #755000;
+    border-color: #d16900
+}
+
+#header {
+    margin-top: 0;
+    border-color: #755000
+}
+
+table.listing tr.fastTracked {
+    background-color: #000
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #ffa82e
+}
+
+#navbar a::after,
+#navbar a::before {
+    background: -moz-linear-gradient(center top, rgba(117, 80, 0, 1), #755000, rgba(117, 80, 0, 1)) rgba(117, 80, 0, 1)
+}
+
+#navbar,
+nav#mainmenu {
+    background-color: #755000
+}
+
+#navbar a:hover {
+    background: #ffa82e
+}
+
+#navbar a::before {
+    opacity: .15
+}
+
+#navbar a::after {
+    opacity: .35
+}
+
+nav#mainmenu {
+    border: 0 solid transparent
+}
+
+.navbar-nav>li>a:hover {
+    background-color: #ffa82e!important
+}
+
+ul.dropdown-menu {
+    background-color: #d16900;
+    border-color: transparent;
+    opacity: .8
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #ffa82e
+}
+
+#footer,
+#pageFooter-bottom {
+    background-color: #755000
+}
+
+#pageFooter {
+    background-color: #8f6128
+}
+
+#pageFooter h3 {
+    color: #fff
+}
+
+input.defaultButton {
+    color: #666
+}
+
+.btn-primary,
+.btn-primary:link,
+input.button,
+input.button:link {
+    background-color: #666;
+    border-color: #666
+}
+
+.btn-primary:active,
+.btn-primary:hover,
+.btn-primary:visited,
+input.button:active,
+input.button:hover,
+input.button:visited {
+    background-color: #5c5c5c;
+    border-color: #5c5c5c
+}
+
+.btn-primary,
+.btn-primary:link,
+a.btn-primary,
+a.btn-primary:link,
+input.button:link {
+    color: #fff
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+    color: #d16900
+}
+
+input.defaultButton,
+input.defaultButton:link {
+    background-color: #fff;
+    border-color: #ccc
+}
+
+input.btn-default:focus,
+input.defaultButton:active,
+input.defaultButton:focus,
+input.defaultButton:hover,
+input.defaultButton:visited {
+    background-color: #ebebeb;
+    border-color: #adadad!important;
+    color: #333
+}
+
+.buttonn {
+    background-color: #d16900
+}
+
+#rightSidebar .block {
+    margin: 10px
+}
+
+#leftSidebar,
+#rightSidebar {
+    background-color: #fff
+}
+
+ul.sidemenu li a {
+    background-color: #755000;
+    border-bottom: 1px solid #ffa82e
+}
+
+ul.sidemenu li a:hover {
+    text-decoration: none;
+    background-color: #d16900;
+    border-bottom: 1px solid #ffa82e;
+    color: #fff
+}
+#pageFooter{
+clear:both;
+}
+#main{
+ min-height: 1350px;
 }
