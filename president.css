@@ -562,7 +562,6 @@ ul.menu a {
 	margin: 0 auto !important;
 	padding:0 0 0 20px !important;
         background-color:#e6e4e0;background-image:-webkit-gradient(linear, left top, left bottom, from(#e6e4e0), to(#ffffff));background-image:-webkit-linear-gradient(top, #e6e4e0, #ffffff);background-image:-moz-linear-gradient(top, #e6e4e0, #ffffff);background-image:-ms-linear-gradient(top, #e6e4e0, #ffffff);background-image:-o-linear-gradient(top, #e6e4e0, #ffffff);background-image:linear-gradient(to bottom, #e6e4e0, #ffffff);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e6e4e0, endColorstr=#ffffff);
-	box-shadow:3px 0px 5px #c0c0c0 inset;
 	font-size:13px !important;
 }
 
