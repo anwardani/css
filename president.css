@@ -260,7 +260,7 @@ table.tocArticle {
 
 body {
 	font: 13px/50px Source Sans Pro;
-	background-image:url(cubes.png);
+	background-image:url(https://jurnal.kominfo.go.id/styles/cubes.png);
 }
 
 /***
@@ -349,8 +349,8 @@ table.announcementsMore td {
 }
 
 #header {
-	width:950px !important;
-	height:360px !important;
+	width:100%;
+	height:100%;
 	margin:0 auto;
 	padding:0;
 	background-color:#ffffff;
@@ -358,8 +358,8 @@ table.announcementsMore td {
 }
 
 #headerTitle {
-	width:950px !important;
-	height:360px !important;
+	width:100%;
+	height:100%;
 }
 
 #headerTitle h1 {
