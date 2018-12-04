@@ -148,7 +148,7 @@ h6 {
 #navbar {
     margin: 0 auto 42px auto;
     padding: 0;
-    background-color: #914787;
+    background-color: #db0016;
     background-image: none;
     clear: both;
     text-align: left;
@@ -214,7 +214,7 @@ h6 {
 }
 
 #navbar a:hover {
-    background: #bb8bb2;
+    background: #e16b77;
     text-shadow: 1px 1px #3f75a2
 }
 
@@ -254,7 +254,7 @@ ul.sidemenu li a {
 }
 
 ul.sidemenu li a:hover {
-    background-color: #bb8bb2;
+    background-color: #e16b77;
     text-decoration: underline
 }
 
@@ -826,7 +826,7 @@ table.announcements td.description {
 
 /* Pengaturan Menu Utama*/
 #navbar{
-	background-color: #914787; /*untuk warna menu bar*/
+	background-color: #db0016; /*untuk warna menu bar*/
 	margin-bottom: 30px;
 }
 
@@ -836,11 +836,11 @@ table.announcements td.description {
 }
 
 #navbar a:hover {
-	background-color: #bb8bb2;		/*untuk warna menu bar*/
+	background-color: #e16b77;		/*untuk warna menu bar*/
 }
 
 #link a:active,a:link,a:visited{
-	color:#914787;				/*untuk warna tulisan yang berisi link*/
+	color:#db0016;				/*untuk warna tulisan yang berisi link*/
 	text-decoration:none
 }
 
@@ -870,13 +870,13 @@ ul.sidemenu li a{
 	display: block;
 	padding: 0.7em 12px 0.7em 12px;
 	border-bottom: 1px solid #fff;	/*untuk warna garis sidemenu*/
-	background-color: #914787;		/*untuk warna background sidemenu*/
+	background-color: #db0016;		/*untuk warna background sidemenu*/
 	text-decoration: none;
 	color: #fff;				/*untuk warna tulisan sidemenu*/
 }
 
 ul.sidemenu li a:hover {
-	background-color: #bb8bb2;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	background-color: #e16b77;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
 	text-decoration: underline;
 }
 
@@ -896,7 +896,7 @@ ul.sidemenu li a:hover {
 /* Pengaturan Title Block bawaan */
 #leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
 	/*font-family: 'EB Garamond', serif !important;*/
-	background-color: #914787 !important;		/*untuk warna menu block*/
+	background-color: #db0016 !important;		/*untuk warna menu block*/
 	color: #FFF !important;
 	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
 }
