@@ -92,7 +92,7 @@ h6 {
 
 #headerTitle {
     width: 1080px;
-    margin: 0 auto -40px auto;
+    margin: 0 auto;
     display: inline-block;
 }
 
@@ -112,7 +112,6 @@ h6 {
 #headerTitle img {
     float: left;
     display: inline-block;
-    margin-top: 13.33333333px;
     margin-bottom: 40px;
     max-width: 1080px;
     height: auto
@@ -146,7 +145,7 @@ h6 {
 }
 
 #navbar {
-    margin: 0 auto 42px auto;
+    margin: 0 auto 5px auto;
     padding: 0;
     background-color: #db0016;
     background-image: none;
@@ -279,7 +278,7 @@ ul.sidemenu li a:hover {
 
 #leftSidebar,
 #rightSidebar {
-    margin: -2px 0 0 0;
+    margin: 40px 0 0 0;
     padding: 12px;
     background-color: transparent;
     background-image: none;
