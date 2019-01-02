@@ -4,7 +4,7 @@
 .panel-body {  color: #000; }
 #pageFooter { display: none; }
 li#categories { display: none; }
-.intro {
+.infoid {
     background-color: #fff2db;
     border: 1px dotted Orange;
     padding: 10px;
