@@ -50,7 +50,7 @@ ul li a {
 }
 
 #header {
-    background: #073c64;
+    background: #fff;
     min-height: 210px
 }
 
@@ -61,7 +61,6 @@ ul li a {
     text-shadow: none;
     text-align: center;
     line-height: 0;
-    margin-top: 4rem;
     margin-bottom: 4rem
 }
 
@@ -221,7 +220,7 @@ ul.sidemenu li a {
 
 @media screen and (min-width:1280px) {
     #navbar {
-        margin-left: -15%
+        margin-left: -23.7%
     }
 }
 
