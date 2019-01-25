@@ -40,7 +40,7 @@ a:hover {
 a:active,
 a:link,
 a:visited {
-    color: #9e262a;
+    color: #073c64;
     text-decoration: none
 }
 
@@ -96,7 +96,7 @@ ul.sidemenu li a {
 .block ul li a:hover,
 ul.sidemenu li a:hover {
     background-color: #fff;
-    color: #9E262A!important
+    color: #F6F305!important
 }
 
 .block li:before {
