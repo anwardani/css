@@ -34,7 +34,7 @@ h2 {
 
 a:hover {
     text-decoration: none!important;
-    color: #26142b!important
+    color: #073c64!important
 }
 
 a:active,
@@ -50,7 +50,7 @@ ul li a {
 }
 
 #header {
-    background: #26142b;
+    background: #073c64;
     min-height: 210px
 }
 
@@ -71,11 +71,11 @@ ul li a {
 }
 
 #navbar {
-    background-color: #26142b
+    background-color: #073c64
 }
 
 #navbar a:hover {
-    background: #26142b;
+    background: #073c64;
     text-shadow: none
 }
 
@@ -88,7 +88,7 @@ ul.sidemenu li:first-child a {
 .block ul li a,
 ul.sidemenu li a {
     background-color: #EAEAEA!important;
-    color: #26142B!important
+    color: #073c64!important
 }
 
 #rightSidebar div p a:hover,
@@ -144,7 +144,7 @@ ul.sidemenu.full {
 }
 
 ul.sidemenu li a {
-    background-color: #26142B!important;
+    background-color: #073c64!important;
     margin-top: 2px;
     color: #EAEAEA!important
 }
@@ -264,7 +264,7 @@ ul.sidemenu li a {
 .announcements tbody tr td p,
 table.announcements td.description,
 table.announcements td.posted {
-    color: #26142b!important
+    color: #073c64!important
 }
 
 #content h3 {
@@ -279,7 +279,7 @@ table.announcementsMore {
 table.announcementsMore tbody tr td a {
     padding: 15px;
     margin-right: 5px;
-    color: #26142b
+    color: #073c64
 }
 
 #main a.nav-toggle,
