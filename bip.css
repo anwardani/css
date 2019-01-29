@@ -302,10 +302,6 @@ div#navbar ul li a {
     filter: grayscale(0)
 }
 
-.indexers a img:hover {
-    filter: sepia(100%) hue-rotate(300deg) saturate(390%)
-}
-
 #pageFooter h3,
 #pageFooter p {
     text-align: center
