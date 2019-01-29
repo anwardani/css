@@ -296,7 +296,6 @@ div#navbar ul li a {
 #pageFooter p a img,
 .indexers a img {
     width: 100px;
-    filter: sepia(100%) hue-rotate(250deg) saturate(100%)
 }
 
 #pageFooter p a img:hover {
