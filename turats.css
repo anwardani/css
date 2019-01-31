@@ -1,17 +1,4 @@
-/**
- *
- * Open Journal Systems
- * Copyright (c) 2013-2016 Simon Fraser University Library
- * Copyright (c) 2003-2016 John Willinsky
- * IJTMER Theme Stylesheet.
- * Ver 1.0.0.4 (2016-09-02)
- * Copyright (c) themeOJS.com | Relawan Jurnal Indonesia | RJI Aceh
- * Designed for IJTMER Journal (2018-04-28) oleh Mursalin
- *
- * Credits:
- * Background pattern from subtlepatterns.com
- *
- **/
+
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic);
 @import url(//fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic);
 #headerTitle,#navbar {
