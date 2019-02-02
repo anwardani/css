@@ -836,7 +836,7 @@ table.announcements td.description {
 }
 
 #navbar a:hover {
-	background-color: #bb8bb2;		/*untuk warna menu bar*/
+	background-color: #4ecf85;		/*untuk warna menu bar*/
 }
 
 #link a:active,a:link,a:visited{
@@ -876,7 +876,7 @@ ul.sidemenu li a{
 }
 
 ul.sidemenu li a:hover {
-	background-color: #bb8bb2;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	background-color: #4ecf85;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
 	text-decoration: underline;
 }
 
