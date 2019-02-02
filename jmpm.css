@@ -148,7 +148,7 @@ h6 {
 #navbar {
     margin: 0 auto 42px auto;
     padding: 0;
-    background-color: #914787;
+    background-color: #00923e;
     background-image: none;
     clear: both;
     text-align: left;
@@ -826,7 +826,7 @@ table.announcements td.description {
 
 /* Pengaturan Menu Utama*/
 #navbar{
-	background-color: #914787; /*untuk warna menu bar*/
+	background-color: #00923e; /*untuk warna menu bar*/
 	margin-bottom: 30px;
 }
 
@@ -840,7 +840,7 @@ table.announcements td.description {
 }
 
 #link a:active,a:link,a:visited{
-	color:#914787;				/*untuk warna tulisan yang berisi link*/
+	color:#00923e;				/*untuk warna tulisan yang berisi link*/
 	text-decoration:none
 }
 
@@ -870,7 +870,7 @@ ul.sidemenu li a{
 	display: block;
 	padding: 0.7em 12px 0.7em 12px;
 	border-bottom: 1px solid #fff;	/*untuk warna garis sidemenu*/
-	background-color: #914787;		/*untuk warna background sidemenu*/
+	background-color: #00923e;		/*untuk warna background sidemenu*/
 	text-decoration: none;
 	color: #fff;				/*untuk warna tulisan sidemenu*/
 }
@@ -896,7 +896,7 @@ ul.sidemenu li a:hover {
 /* Pengaturan Title Block bawaan */
 #leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
 	/*font-family: 'EB Garamond', serif !important;*/
-	background-color: #914787 !important;		/*untuk warna menu block*/
+	background-color: #00923e !important;		/*untuk warna menu block*/
 	color: #FFF !important;
 	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
 }
