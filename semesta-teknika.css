@@ -826,7 +826,7 @@ table.announcements td.description {
 
 /* Pengaturan Menu Utama*/
 #navbar{
-	background-color: #914787; /*untuk warna menu bar*/
+	background-color: #fdd100; /*untuk warna menu bar*/
 	margin-bottom: 30px;
 }
 
@@ -836,11 +836,11 @@ table.announcements td.description {
 }
 
 #navbar a:hover {
-	background-color: #bb8bb2;		/*untuk warna menu bar*/
+	background-color: #e1bb04;		/*untuk warna menu bar*/
 }
 
 #link a:active,a:link,a:visited{
-	color:#914787;				/*untuk warna tulisan yang berisi link*/
+	color:#fdd100;				/*untuk warna tulisan yang berisi link*/
 	text-decoration:none
 }
 
@@ -870,19 +870,19 @@ ul.sidemenu li a{
 	display: block;
 	padding: 0.7em 12px 0.7em 12px;
 	border-bottom: 1px solid #fff;	/*untuk warna garis sidemenu*/
-	background-color: #914787;		/*untuk warna background sidemenu*/
+	background-color: #fdd100;		/*untuk warna background sidemenu*/
 	text-decoration: none;
 	color: #fff;				/*untuk warna tulisan sidemenu*/
 }
 
 ul.sidemenu li a:hover {
-	background-color: #bb8bb2;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	background-color: #e1bb04;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
 	text-decoration: underline;
 }
 
 .block li:before {
   content: "";
-  border-color: transparent #9d4d82;		/*untuk warna format bulleting*/
+  border-color: transparent #fdd100;		/*untuk warna format bulleting*/
   border-style: solid;
   border-width: 0.35em 0 0.35em 0.45em;
   display: block;
@@ -896,7 +896,7 @@ ul.sidemenu li a:hover {
 /* Pengaturan Title Block bawaan */
 #leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
 	/*font-family: 'EB Garamond', serif !important;*/
-	background-color: #914787 !important;		/*untuk warna menu block*/
+	background-color: #fdd100 !important;		/*untuk warna menu block*/
 	color: #FFF !important;
 	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
 }
@@ -911,7 +911,7 @@ ul.sidemenu li a:hover {
 
 /*Buat kotak Quote yang menggunakan class="intro"*/
 .intro {
-  background-color: #f1faf5;
+  background-color: #fdd100;
   border: 1px dotted SeaGreen;
   padding-bottom: 6px;
   padding: 15px;
