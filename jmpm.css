@@ -214,7 +214,7 @@ h6 {
 }
 
 #navbar a:hover {
-    background: #bb8bb2;
+    background: #4ecf85;
     text-shadow: 1px 1px #3f75a2
 }
 
@@ -254,7 +254,7 @@ ul.sidemenu li a {
 }
 
 ul.sidemenu li a:hover {
-    background-color: #bb8bb2;
+    background-color: #4ecf85;
     text-decoration: underline
 }
 
