@@ -463,3 +463,7 @@ summary {
     background: url(https://obsesi.or.id/public/site/icon-group.png) 1px 20px no-repeat rgba(0,0,0,0);
     padding-left: 24px;
 }
+footer {
+    background: url(https://obsesi.or.id/public/site/icon-pdf.png) top left no-repeat;
+    padding-left: 24px;
+}
