@@ -459,3 +459,7 @@ article:hover {
 header {
     font-weight: bold;
 }
+summary {
+    background: url(https://obsesi.or.id/public/site/icon-group.png) 1px 20px no-repeat rgba(0,0,0,0);
+    padding-left: 24px;
+}
