@@ -448,3 +448,14 @@ span.highlight {
 .tocGaleyFile {
  background:url(https://obsesi.or.id/public/site/icon-file.png) top right no-repeat; height:20px
 }
+article {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+article:hover {
+    background-color:#ffedcc
+}
+header {
+    font-weight: bold;
+}
