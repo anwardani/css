@@ -467,3 +467,7 @@ footer {
     background: url(https://obsesi.or.id/public/site/icon-pdf.png) top left no-repeat;
     padding-left: 24px;
 }
+.tocDoi {
+    background: url(http://journal.uinsgd.ac.id/public/site/images/bbusro/icon-doi.png) 0px 4px no-repeat rgba(0,0,0,0);
+    padding-left: 30px;
+}
