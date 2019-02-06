@@ -28,7 +28,7 @@
 	padding:0
 }
 #navbar a,#navbar a:link,#navbar a:visited {
-	color:#2a0e72;
+	color:#fff;
 	display:inline-block;
 	font-size:.6em;
 	font-weight:700;
@@ -448,4 +448,136 @@ span.highlight {
 .tocGaleyFile {
 	background:url(http://riset.unisma.ac.id/public/site/images/alfianid/icon-file.png) top right no-repeat;
 	height:20px
+}
+/* Pengaturan Menu Utama*/
+#navbar{
+	background: Green;		/*untuk warna menu bar*/
+	margin-bottom: 30px;
+}
+
+#navbar a, #navbar a:link, #navbar a:visited {
+	/*font-family: 'EB Garamond', serif !important;*/	/*jenis font*/
+	text-transform: none;
+	/*font-size: 1.2em !important;*/
+}
+
+#navbar a:hover {
+	background-color: #375;		/*untuk warna menu bar ketika pointer diarahkan ke menu bar*/
+}
+
+#link a:active,a:link,a:visited{
+	color: Green;				/*untuk warna tulisan yang berisi link*/
+	text-decoration:none
+}
+
+
+/* Pengaturan Side Menu yang menggunakan <ul class="sidemenu full"> */
+ul.sidemenu{
+	margin-top: -12px;
+	padding-left: 0px !important;
+}
+
+ul.sidemenu.full{
+	margin: -12px -12px 0 -12px;
+}
+
+ul.sidemenu li:before{
+	display: none;
+}
+
+ul.sidemenu li{
+	padding: 0;
+}
+
+ul.sidemenu li:first-child a{
+	border-top:1px solid #116611		/*untuk warna pembatas menu paling atas dengan menu nav*/
+}
+
+ul.sidemenu li a{
+	display: block;
+	padding: 0.7em 12px 0.7em 12px;
+	border-bottom: 1px solid #116611;	/*untuk warna garis sidemenu*/
+	background-color: Green;		/*untuk warna background sidemenu*/
+	text-decoration: none;
+	color: #FFF;				/*untuk warna tulisan sidemenu*/
+}
+
+ul.sidemenu li a:hover {
+	background-color: #375;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	text-decoration: underline;
+}
+
+.block li:before {
+	content: "";
+	border-color: transparent #375;		/*untuk warna format bulleting*/
+	border-style: solid;
+	border-width: 0.35em 0 0.35em 0.45em;
+	display: block;
+	height: 0;
+	width: 0;
+	left: -1em;
+	top: 0.9em;
+	position: relative;
+}
+
+/* Pengaturan Sidebar Kanan dan Kiri */
+#leftSidebar,#rightSidebar{
+	margin:40px 0 0 0;
+	padding:5px;
+	background-color:#eeeeee;		/*untuk warna background sidebar*/
+	background-image:none;
+	font-size:1em;
+	height:auto;
+	overflow:hidden
+}
+
+/* Pengaturan Title Block bawaan */
+#leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
+	/*font-family: 'EB Garamond', serif !important;*/	/*jenis font*/
+	background-color: Green;		/*untuk warna menu block*/
+	color: #FFF;
+	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
+}
+
+/* Gambar Cover Table of Content*/
+#issueCoverImage img {
+	display: block;
+	border: 0;
+	max-width: 300px;
+	height: auto;
+}
+
+/*Buat kotak Quote yang menggunakan class="intro"*/
+.intro {
+  background-color: #f1faf5;
+  border: 1px dotted SeaGreen;
+  padding-bottom: 6px;
+  padding: 15px;
+  display: inline-block;
+}
+.intro ul {
+  margin: 0;
+  padding-left: 1em;
+}
+.color-box {
+  display: block;
+  width: 60px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
+}
+.color1 {
+  background-color: Gold;
+}
+.color1-light {
+  background-color: #fffbe5;
+}
+.color2 {
+  background-color: SeaGreen;
+}
+.color2-light {
+  background-color: #f1faf5;
+}
+.color-grey-light {
+  background-color: #f4f4f4;
 }
