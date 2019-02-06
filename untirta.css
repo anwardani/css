@@ -526,7 +526,7 @@ ul.sidemenu li a:hover {
 	padding:5px;
 	background-color:#eeeeee;		/*untuk warna background sidebar*/
 	background-image:none;
-	font-size:1em;
+	font-size:10pt;
 	height:auto;
 	overflow:hidden
 }
