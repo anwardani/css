@@ -9,7 +9,7 @@
 	padding-bottom:40px
 }
 #navbar {
-	background-color:#9fdffa;
+	background-color: Green;
 	background-repeat:repeat-x;
 	border:0;
 	height:40px;
@@ -60,7 +60,7 @@
 	display:none
 }
 #navbar a:hover {
-	background:#9fdffa;
+	background:#3f75a2;
 	text-shadow:1px 1px #ccc
 }
 #body,#header,#main,#navbar,#sidebar {
@@ -207,7 +207,7 @@ ul.sidemenu li a:hover {
 	display:block;
 	letter-spacing:0;
 	margin-bottom:10px;
-	background:url(http://riset.unisma.ac.id/public/site/images/alfianid/stripes.png) #131e4c;
+	background:url(http://riset.unisma.ac.id/public/site/images/alfianid/stripes.png) #4682b4;
 	padding:.4em 10px!important;
 	text-transform:uppercase
 }
