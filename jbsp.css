@@ -865,4 +865,4 @@ input.textField, select.selectMenu, textarea.textArea, input.uploadField {
 #header h1 { padding:none }
 #body { box-shadow:none; border:none; }
 .tocPages { clear: both; padding-top: 12px; font-size: 10pt;}
-div.warningMessage{ display:none; }
+.warningMessage{ display:none; }
