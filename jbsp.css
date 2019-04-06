@@ -864,4 +864,4 @@ input.textField, select.selectMenu, textarea.textArea, input.uploadField {
 #headerTitle img { margin:none }
 #header h1 { padding:none }
 #body { box-shadow:none; border:none; }
-.tocPages { clear: both; }
+.tocPages { clear: both; padding-top: 12px; font-size: 10pt;}
