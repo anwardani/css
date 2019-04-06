@@ -1,3 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('https://jurnal.ugm.ac.id/plugins/themes/nusantara2columnsCrimson/nusantara2columnsCrimson.min.css');
 @import url('https://jurnal.ugm.ac.id/public/journals/61/journalStyleSheet.css');
+
+#main { border:none; }
+#headerTitle img { margin:none }
+#header h1 { padding:none }
+#body { box-shadow:none; border:none; }
