@@ -852,3 +852,6 @@ input.textField, select.selectMenu, textarea.textArea, input.uploadField {
 .gr__tooltip {
     position: relative !important;
 }
+#topBar {
+   display: none;
+}
