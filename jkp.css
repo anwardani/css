@@ -1,5 +1,3 @@
-/* custom style for al-Balagh */
-
 body {
     background-color: #ffeab8
 }
@@ -17,7 +15,7 @@ h4 {
 #main h4 a,
 #main li a,
 .article-data a {
-    color: #755000
+    color: #6b023d
 }
 
 #container {
@@ -25,7 +23,7 @@ h4 {
 }
 
 .mycustom-background {
-    background: #f4e2b3!important;
+    background: #6b023d!important;
     padding-left: 5pt
 }
 
@@ -37,13 +35,13 @@ h4 {
 #mainmenu,
 .dropdown-menu,
 .dropdown-menu.submenu {
-    background-color: #755000;
-    border-color: #d16900
+    background-color: #6b023d;
+    border-color: #6b023d
 }
 
 #header {
     margin-top: 0;
-    border-color: #755000
+    border-color: #6b023d
 }
 
 table.listing tr.fastTracked {
@@ -52,21 +50,21 @@ table.listing tr.fastTracked {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #ffa82e
+    background-color: #6b023d
 }
 
 #navbar a::after,
 #navbar a::before {
-    background: -moz-linear-gradient(center top, rgba(117, 80, 0, 1), #755000, rgba(117, 80, 0, 1)) rgba(117, 80, 0, 1)
+    background: -moz-linear-gradient(center top, rgba(117, 80, 0, 1), #6b023d, rgba(117, 80, 0, 1)) rgba(117, 80, 0, 1)
 }
 
 #navbar,
 nav#mainmenu {
-    background-color: #755000
+    background-color: #6b023d
 }
 
 #navbar a:hover {
-    background: #ffa82e
+    background: #c5006e
 }
 
 #navbar a::before {
@@ -82,11 +80,11 @@ nav#mainmenu {
 }
 
 .navbar-nav>li>a:hover {
-    background-color: #ffa82e!important
+    background-color: #c5006e!important
 }
 
 ul.dropdown-menu {
-    background-color: #d16900;
+    background-color: #6b023d;
     border-color: transparent;
     opacity: .8
 }
@@ -108,12 +106,12 @@ ul.dropdown-menu {
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #ffa82e
+    background-color: #c5006e
 }
 
 #footer,
 #pageFooter-bottom {
-    background-color: #755000
+    background-color: #6b023d
 }
 
 #pageFooter {
@@ -159,7 +157,7 @@ a:active,
 a:hover,
 a:link,
 a:visited {
-    color: #d16900
+    color: #6b023d
 }
 
 input.defaultButton,
@@ -173,13 +171,13 @@ input.defaultButton:active,
 input.defaultButton:focus,
 input.defaultButton:hover,
 input.defaultButton:visited {
-    background-color: #ebebeb;
+    background-color: #6b023d;
     border-color: #adadad!important;
     color: #333
 }
 
 .buttonn {
-    background-color: #d16900
+    background-color: #6b023d
 }
 
 #rightSidebar .block {
@@ -192,13 +190,13 @@ input.defaultButton:visited {
 }
 
 ul.sidemenu li a {
-    background-color: #755000;
+    background-color: #6b023d;
     border-bottom: 1px solid #ffa82e
 }
 
 ul.sidemenu li a:hover {
     text-decoration: none;
-    background-color: #d16900;
+    background-color: #c5006e;
     border-bottom: 1px solid #ffa82e;
     color: #fff
 }
