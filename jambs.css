@@ -65,7 +65,7 @@ h6 {
 }
 
 a:hover {
-	color: #3cb467 !important;
+	color: #4fb445 !important;
 	text-decoration: none;
 }
 
@@ -373,7 +373,7 @@ body {
 
 #navbar a:hover {
 	background-color: #4FB445;
-	color: #3cb467;
+	color: #4fb445;
 	text-shadow: none;
 }
 
@@ -426,7 +426,7 @@ body {
 }
 
 #breadcrumb a:hover {
-	color: #404750 !important;
+	color: #4fb445 !important;
 }
 
 #breadcrumb a.current {
@@ -436,7 +436,7 @@ body {
 }
 
 #breadcrumb a.current:hover {
-	color: #404750 !important;
+	color: #4fb445 !important;
 }
 
 /* 6. Sidebar */
@@ -475,7 +475,7 @@ ul.sidemenu li a {
 
 ul.sidemenu li a:hover {
 	background-color: #fcfcfc;
-	color: #3cb467;
+	color: #4fb445;
 	text-decoration: none;
 }
 
