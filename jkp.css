@@ -204,5 +204,8 @@ ul.sidemenu li a:hover {
 clear:both;
 }
 #main{
- min-height: 1350px;
+ min-height: 850px;
+}
+.lastfooter {
+    color: #000;
 }
