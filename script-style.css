@@ -1,3 +1,14 @@
+a {
+    color: #0e314e;
+}
+a:hover {
+    color: #2975b3;
+    font-weight: bold;
+}
+a:visited {
+    color: #0e314e;
+    font-weight: bold;
+}
 [class~=navbar] {
     background-color: #2f506b;
 }
@@ -9,6 +20,10 @@
     color: #fff;
     background-color: #347ebb;
     border-color: #347ebb;
+}
+[class~=button], [class~=action], [class~=toggleExtras-inactive], [class~=toggleExtras-active], #setup [class~=options] {
+    border: 1px solid #07355E;
+    background-color: #2f506b;
 }
 [class~=blockButton] {
     background-color: #275479;
