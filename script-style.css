@@ -1,1 +1,27 @@
-body {}
+[class~=navbar] {
+    background-color: #2f506b;
+}
+[class~=navbar-inverse] [class~=navbar-nav] > [class~=open] > a, [class~=navbar-inverse] [class~=navbar-nav] > [class~=open] > a:focus, [class~=navbar-inverse] [class~=navbar-nav] > [class~=open] > a:hover, [class~=navbar-nav] > [class~=selected] > a, [class~=navbar-nav] > [class~=selected] > a:focus, [class~=navbar-nav] > [class~=selected] > a:hover, [class~=navbar-nav] > li > a:hover, [class~=navbar-nav] > li > a:focus, [class~=navbar-nav] > li:hover {
+    color: #fefefe;
+    background-color: #6584a6;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #347ebb;
+    border-color: #347ebb;
+}
+[class~=blockButton] {
+    background-color: #275479;
+}
+.blockButton:hover {
+    background-color: #9fb8d2;
+}
+#navFooter {
+    background-color: #507ca0;
+}
+#pageFooter {
+    background-color: #91a9bd;
+}
+#pageFooter a {
+    color: #000;
+}
