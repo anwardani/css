@@ -28,6 +28,15 @@ a:visited {
 [class~=blockButton] {
     background-color: #275479;
 }
+.panel-primary > .panel-heading {
+    background-color: #2f506b;
+    border-color: #2f506b;
+}
+[class~=nav-tabs] li a:hover,
+[class~=nav] li a:focus {
+    background-color: #2f506b;
+    color: #ffffff;
+}
 .blockButton:hover {
     background-color: #9fb8d2;
 }
