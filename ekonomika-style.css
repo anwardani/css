@@ -54,3 +54,4 @@ a:visited {
     color: #000;
 }
 div.warningMessage{ display:none; }
+#headerTitle figure { width: 100%; }
