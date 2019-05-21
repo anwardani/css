@@ -9,10 +9,10 @@ a:visited {
     color: #0e314e;
     font-weight: bold;
 }
-[class~=navbar] {
+.navbar {
     background-color: #2f506b;
 }
-[class~=navbar-inverse] [class~=navbar-nav] > [class~=open] > a, [class~=navbar-inverse] [class~=navbar-nav] > [class~=open] > a:focus, [class~=navbar-inverse] [class~=navbar-nav] > [class~=open] > a:hover, [class~=navbar-nav] > [class~=selected] > a, [class~=navbar-nav] > [class~=selected] > a:focus, [class~=navbar-nav] > [class~=selected] > a:hover, [class~=navbar-nav] > li > a:hover, [class~=navbar-nav] > li > a:focus, [class~=navbar-nav] > li:hover {
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-nav > .selected > a, .navbar-nav > .selected > a:focus, .navbar-nav > .selected > a:hover, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li:hover {
     color: #fefefe;
     background-color: #6584a6;
 }
@@ -21,19 +21,19 @@ a:visited {
     background-color: #347ebb;
     border-color: #347ebb;
 }
-[class~=button], [class~=action], [class~=toggleExtras-inactive], [class~=toggleExtras-active], #setup [class~=options] {
+.button, .action, .toggleExtras-inactive, .toggleExtras-active, #setup .options {
     border: 1px solid #07355E;
     background-color: #2f506b;
 }
-[class~=blockButton] {
+.blockButton {
     background-color: #275479;
 }
 .panel-primary > .panel-heading {
     background-color: #2f506b;
     border-color: #2f506b;
 }
-[class~=nav-tabs] li a:hover,
-[class~=nav] li a:focus {
+.nav-tabs li a:hover,
+.nav li a:focus {
     background-color: #2f506b;
     color: #ffffff;
 }
