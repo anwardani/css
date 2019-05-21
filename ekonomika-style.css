@@ -14,7 +14,7 @@ a:visited {
 }
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-nav > .selected > a, .navbar-nav > .selected > a:focus, .navbar-nav > .selected > a:hover, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li:hover {
     color: #fefefe;
-    background-color: #6F6F6F;
+    background-color: #B3B3B3;
 }
 .btn-danger {
     color: #fff;
