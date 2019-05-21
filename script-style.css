@@ -49,3 +49,4 @@ a:visited {
 #pageFooter a {
     color: #000;
 }
+div.warningMessage{ display:none; }
