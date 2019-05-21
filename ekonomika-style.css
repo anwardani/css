@@ -23,6 +23,7 @@ a:visited {
 }
 .btn-danger:hover {
     background-color: #9F9F9F;
+    border-color: #9F9F9F;
 }
 .button, .action, .toggleExtras-inactive, .toggleExtras-active, #setup .options {
     border: 1px solid #07355E;
