@@ -1,0 +1,53 @@
+a {
+    color: #311B63;
+}
+a:hover {
+    color: #311B63;
+    font-weight: bold;
+}
+a:visited {
+    color: #311B63;
+    font-weight: bold;
+}
+.navbar {
+    background-color: #311B63;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-nav > .selected > a, .navbar-nav > .selected > a:focus, .navbar-nav > .selected > a:hover, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li:hover {
+    color: #fefefe;
+    background-color: #311B63;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #311B63;
+    border-color: #311B63;
+}
+.button, .action, .toggleExtras-inactive, .toggleExtras-active, #setup .options {
+    border: 1px solid #311B63;
+    background-color: #311B63;
+}
+.blockButton {
+    background-color: #311B63;
+}
+.panel-primary > .panel-heading {
+    background-color: #311B63;
+    border-color: #311B63;
+}
+.nav-tabs li a:hover,
+.nav li a:focus {
+    background-color: #ADD8E6;
+    color: #000;
+}
+.blockButton:hover {
+    background-color: #ADD8E6;
+}
+#navFooter {
+    background-color: #311B63;
+}
+#pageFooter {
+    background-color: #ADD8E6;
+}
+#pageFooter a {
+    color: #000;
+}
+div.warningMessage{ display:none; }
+#headerTitle figure { width: 100%; }
