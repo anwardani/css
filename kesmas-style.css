@@ -1,0 +1,53 @@
+a {
+    color: #800080;
+}
+a:hover {
+    color: #800080;
+    font-weight: bold;
+}
+a:visited {
+    color: #800080;
+    font-weight: bold;
+}
+.navbar {
+    background-color: #800080;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-nav > .selected > a, .navbar-nav > .selected > a:focus, .navbar-nav > .selected > a:hover, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li:hover {
+    color: #fefefe;
+    background-color: #800080;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #800080;
+    border-color: #800080;
+}
+.button, .action, .toggleExtras-inactive, .toggleExtras-active, #setup .options {
+    border: 1px solid #800080;
+    background-color: #800080;
+}
+.blockButton {
+    background-color: #800080;
+}
+.panel-primary > .panel-heading {
+    background-color: #800080;
+    border-color: #800080;
+}
+.nav-tabs li a:hover,
+.nav li a:focus {
+    background-color: #c837c8;
+    color: #000;
+}
+.blockButton:hover {
+    background-color: #c837c8;
+}
+#navFooter {
+    background-color: #800080;
+}
+#pageFooter {
+    background-color: #c837c8;
+}
+#pageFooter a {
+    color: #000;
+}
+div.warningMessage{ display:none; }
+#headerTitle figure { width: 100%; }
