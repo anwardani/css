@@ -549,8 +549,11 @@ ul.sidemenu li a:hover {
 /* 7. Journal description */
 
 #journalDescription {
-	text-align: left;
-	width: 100%;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 20px;	
 }
 
 #journalDescription > p {
