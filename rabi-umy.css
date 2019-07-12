@@ -589,7 +589,8 @@ span.highlight {
 
 #journalDescription {
     float: left;
-    width: 68%
+    width: 68%;
+    text-align: justify;
 }
 
 #homepageImage {
