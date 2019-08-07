@@ -855,3 +855,6 @@ input.textField, select.selectMenu, textarea.textArea, input.uploadField {
 #topBar {
    display: none;
 }
+.intro {
+    list-style: none;
+}
