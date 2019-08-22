@@ -1,0 +1,644 @@
+
+.color1,
+.color1-light,
+.color2,
+.color2-light {
+    background-color: #ffff
+}
+
+.pull-right {
+    float: right!important
+}
+
+.pull-left {
+    float: left!important
+}
+
+.clear {
+    clear: both
+}
+
+.cover-image-intro {
+    margin: 0 0 0 1em;
+    width: 100px;
+    box-shadow: 1px 1px 12px #ccc;
+    border: 1px solid #eee
+}
+
+.color-box {
+    display: block;
+    width: 60px;
+    height: 40px;
+    float: left;
+    margin-right: 5px
+}
+
+body {
+    display: inline!important
+}
+
+.color-grey-light {
+    background-color: #eeeeee
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background-image: none;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    display: none;
+    color: #222
+}
+
+a:link,
+a:visited,
+a:active {
+    color: SteelBlue;
+    text-decoration: none
+}
+
+a:hover {
+    color: SteelBlue;
+    background: none;
+    text-decoration: underline
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Pathway Gothic One', "Times New Roman", Times, serif!important;
+    color: #000;
+    font-weight: normal;
+    text-align: left
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: normal
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: normal
+}
+
+h4 {
+    font-size: 1.6em;
+    font-weight: normal
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: normal
+}
+
+h6 {
+    font-size: .85em;
+    font-weight: normal
+}
+
+#container {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ccc;
+    background-image: url(https://anwardani.github.io/css-ojs2/imgs/noisy_grid.png);
+    width: auto;
+    min-width: 730px!important;
+    text-align: center;
+    display: inline-block
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background-image: none;
+    min-height: 150px
+}
+
+#headerTitle {
+    width: 1080px;
+    margin: 0 auto;
+    display: inline-block
+}
+
+#header h1 {
+    font-family: Teko, verdana, Georgia, "Times New Roman", Times, serif!important;
+    font-weight: 200!important;
+    text-transform: none;
+    font-size: 3.2em;
+    letter-spacing: 0;
+    color: #111;
+    text-shadow: 1px 1px #fff;
+    padding: 0!important;
+    line-height: 150px;
+    margin-top: -13.33333333px
+}
+
+#headerTitle img {
+    float: left;
+    display: inline-block;
+    margin-top: 13.33333333px;
+    margin-bottom: 0;
+    max-width: 1080px;
+    height: auto
+}
+
+#body {
+    margin: -40px auto 12px auto;
+    padding: 0 0 24px 0;
+    background-color: #fff;
+    background-image: none;
+    width: 1080px!important;
+    display: inline-block;
+    height: auto
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background-image: none;
+    display: inline;
+    float: left;
+    position: relative;
+    width: 874px;
+    overflow: visible!important
+}
+
+#content {
+    border-top: 0 dotted #000;
+    font-size: 1em
+}
+
+#navbar {
+    margin: 0 auto 40px auto;
+    padding: 0;
+    background-color: #012E6F;
+    background-image: none;
+    clear: both;
+    text-align: center;
+    border: 0;
+    height: 40px;
+    width: 1080px
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block
+}
+
+#navbar ul li {
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+#navbar a,
+#navbar a:link,
+#navbar a:visited {
+    font-family: 'Pathway Gothic One', "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 1.4em!important;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #fff;
+    line-height: 40px;
+    display: inline-block;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#navbar a:before,
+#navbar a:after {
+    position: absolute;
+    top: 5px;
+    display: block;
+    height: 30px;
+    width: 1px
+}
+
+#navbar a:before {
+    margin-left: -15px;
+    opacity: .15;
+    background: rgba(0, 0, 0, .7);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0))
+}
+
+#navbar a:after {
+    margin-left: -14px;
+    opacity: .35;
+    background: rgba(255, 255, 255, .8);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, .01), #fff, rgba(255, 255, 255, .01));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0))
+}
+
+#navbar li:first-child a:before,
+#navbar li:first-child a:after {
+    background-color: black;
+    display: none
+}
+
+#navbar a:hover {
+    background: #3f75a2;
+    text-shadow: 1px 1px #3f75a2
+}
+
+#navbar a:active {
+    background: none;
+    text-decoration: underline
+}
+
+ul.sidemenu {
+    margin-top: -12px;
+    padding-left: 0!important
+}
+
+ul.sidemenu.full {
+    margin: -12px -12px 0 -12px
+}
+
+ul.sidemenu li:before {
+    display: none
+}
+
+ul.sidemenu li {
+    padding: 0
+}
+
+ul.sidemenu li a {
+    display: block;
+    padding: .7em 12px .7em 12px;
+    border-bottom: 1px solid #b5b5b5;
+    background-color: #eee;
+    text-decoration: none;
+    color: #222
+}
+
+ul.sidemenu li a:hover {
+    background-color: #d3e2ee;
+    text-decoration: underline
+}
+
+#breadcrumb {
+    margin: 0 12px 1em 12px;
+    padding: .5em 0;
+    background-color: #yellow;
+    background-image: none;
+    font-size: 1em;
+    border-bottom: 1px dotted #333
+}
+
+#main>h2,
+#content {
+    padding-left: 12px;
+    padding-right: 12px
+}
+
+/* Copyright (c) themeOJS - http://www.themeojs.com */
+
+#cpr {
+    border: 0 none #fff
+}
+
+#leftSidebar,
+#rightSidebar {
+    margin: 0;
+    padding: 5px;
+    background-color: transparent;
+    background-image: none;
+    font-size: 1em;
+    height: auto;
+    overflow: hidden
+}
+
+#leftSidebar {
+    width: 160px;
+    display: inline;
+    float: left;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ccc
+}
+
+#rightSidebar {
+    width: 180px;
+    float: right;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ccc
+}
+
+#rightSidebar div.block,
+#leftSidebar div.block {
+    border: 0;
+    padding: 0 0 12px 0;
+    margin-bottom: 12px;
+    color: inherit
+}
+
+#leftSidebar div.block span.blockTitle,
+#rightSidebar div.block span.blockTitle {
+    padding: .5em 1em;
+    margin-bottom: 12px;
+    background: #012E6F url(https://anwardani.github.io/css-ojs2/imgs/stripes.png);
+    display: block;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 0
+}
+
+#sidebarDevelopedBy.block,
+#sidebarHelp.block {
+    border: 1px solid #999!important;
+    border-radius: 4px;
+    padding: .5em 1em!important
+}
+
+#sidebarDevelopedBy.block a,
+#sidebarHelp.block a {
+    text-decoration: none
+}
+
+.block p {
+    margin: 0!important
+}
+
+.block ul {
+    padding-left: 1.2em;
+    list-style: none
+}
+
+.block li:before {
+    content: "";
+    border-color: transparent SteelBlue;
+    border-style: solid;
+    border-width: .35em 0 .35em .45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: .9em;
+    position: relative
+}
+
+#sidebarFontSize.block {
+    padding-bottom: 35px!important
+}
+
+table.tocArticle:nth-child(odd) tr {
+    background-color: #e5eef5
+}
+
+table.tocArticle:nth-child(even) tr {
+    background-color: #f4f4f4
+}
+
+table.tocArticle tr:hover {
+    background-color: #e6f7ff
+}
+
+table.tocArticle td {
+    padding: 5px 10px
+}
+
+table.tocArticle a {
+    text-decoration: none
+}
+
+.tocTitle {
+    font-weight: bold
+}
+
+.tocAuthors {
+    font-style: italic
+}
+
+td.tocGalleys {
+    padding-right: 10px
+}
+
+#content ul.menu {
+    margin: 0
+}
+
+#content ul.menu li {
+    background-image: -webkit-linear-gradient(top, #2651ff 0, #4f72ff 100%);
+    background-image: -o-linear-gradient(top, #2651ff 0, #4f72ff 100%);
+    background-image: linear-gradient(to bottom, #2651ff 0, #4f72ff 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2651ff', endColorstr='#ff4f72ff', GradientType=0);
+    padding: 5px 8px;
+    border-radius: 3px
+}
+
+#content ul.menu li:hover,
+#content ul.menu li.current {
+    background-image: -webkit-linear-gradient(top, #ec790f 0, #f28c31 100%);
+    background-image: -o-linear-gradient(top, #ec790f 0, #f28c31 100%);
+    background-image: linear-gradient(to bottom, #ec790f 0, #f28c31 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec790f', endColorstr='#fff28c31', GradientType=0)
+}
+
+#content ul.menu a {
+    color: #fff
+}
+
+#content ul.menu a:hover {
+    color: yellow
+}
+
+input.textField,
+select.selectMenu,
+textarea.textArea,
+input.uploadField {
+    padding: .3em;
+    background-color: #f1f1f1;
+    border: 1px solid #aaa;
+    color: #444
+}
+
+input.textField:focus,
+select.selectMenu:focus,
+textarea.textArea:focus,
+input.uploadField:focus {
+    border: 1px solid SteelBlue
+}
+
+input[type=submit],
+input[type=button] {
+    background-image: -webkit-linear-gradient(top, #ddd 0, #c4c4c4 100%);
+    background-image: -o-linear-gradient(top, #ddd 0, #c4c4c4 100%);
+    background-image: linear-gradient(to bottom, #ddd 0, #c4c4c4 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdddddd', endColorstr='#ffc4c4c4', GradientType=0);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #444;
+    text-shadow: 1px 1px #f6f6f6;
+    padding: 3px 5px;
+    text-decoration: none;
+    border: 1px solid #9d9d9d
+}
+
+input[type=submit]:hover,
+input[type=button]:hover {
+    background-image: -webkit-linear-gradient(top, #c4c4c4 0, #aaa 100%);
+    background-image: -o-linear-gradient(top, #c4c4c4 0, #aaa 100%);
+    background-image: linear-gradient(to bottom, #c4c4c4 0, #aaa 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc4c4c4', endColorstr='#ffaaaaaa', GradientType=0);
+    text-decoration: none;
+    cursor: pointer
+}
+
+input.defaultButton {
+    color: #2b2b2b;
+    font-weight: bold
+}
+
+div.separator {
+    border-bottom: 1px dotted #222
+}
+
+.indexers {
+    margin: 10px 0
+}
+
+.indexers a {
+    border: 2px solid transparent;
+    padding: 5px 3px;
+    display: inline-block
+}
+
+.indexers a:hover {
+    background: 0;
+    border: 2px dotted SteelBlue;
+    opacity: .75;
+    filter: alpha(opacity=75)
+}
+
+.indexers a img {
+    height: 38px
+}
+
+a img {
+    border: 0
+}
+
+div.thickSeparator {
+    margin-bottom: 10px
+}
+
+span.highlight {
+    background-color: #f4f4f4
+}
+
+.intro {
+    background-color: #f4f4f4;
+    border: 1px dotted Orange;
+    padding: 10px
+}
+
+.intro ul {
+    margin: 0;
+    padding-left: 1em
+}
+
+.issueCoverImage {
+    border: 1px solid #fff;
+    padding: 0;
+    margin: 0
+}
+
+.issueCoverImage img {
+    margin: 1em 2em 1em 0;
+    width: 100px;
+    border: 0 solid #fff
+}
+
+#content h4 a {
+    text-decoration: none
+}
+
+#announcements {
+    width: auto
+}
+
+#journalDescription {
+    float: left;
+    width: 68%
+}
+
+#homepageImage {
+    float: right;
+    width: 30%;
+    margin-top: -1em;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    text-align: right
+}
+
+#homepageImage img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: auto
+}
+
+#announcementsHome,
+.clear {
+    clear: both
+}
+
+#setupForm #homepageImage {
+    float: none;
+    width: auto;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 0
+}
+
+#setupForm #journalDescription {
+    float: none
+}
+
+#setupForm #homepageImage img,
+#setupForm #journalThumbnail img {
+    display: inline;
+    margin: 5px 0
+}
+
+.selectMenu {
+    margin-right: 2px
+}
+
+#poweredby {
+    clear: both;
+    display: block;
+    margin: 0 auto 1em auto;
+    text-align: right;
+    width: 1080px;
+    padding-right: 12px
+}
