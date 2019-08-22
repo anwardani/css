@@ -185,7 +185,7 @@ h6 {
 #navbar {
     margin: 0 auto 40px auto;
     padding: 0;
-    background-color: #012E6F;
+    background-color: #9F9F9F;
     background-image: none;
     clear: both;
     text-align: center;
@@ -361,7 +361,7 @@ ul.sidemenu li a:hover {
 #rightSidebar div.block span.blockTitle {
     padding: .5em 1em;
     margin-bottom: 12px;
-    background: #012E6F url(https://anwardani.github.io/css-ojs2/imgs/stripes.png);
+    background: #9F9F9F url(https://anwardani.github.io/css-ojs2/imgs/stripes.png);
     display: block;
     color: #FFFFFF;
     font-weight: bold;
