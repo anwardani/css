@@ -227,7 +227,6 @@ img:hover {/*membuat gambar dari warna ke hitam*/
     margin: 0;
     padding: 0;
     background-color: #FAAB33;
-    background-image: url(./imgs/noisy_grid.png);
     min-height: 80px;
 }
 
