@@ -19,7 +19,6 @@ body{margin:0;padding:0;background-color:transparent;background-image:none;font-
 #journalFavicon img {width:80px;height:auto;}
 p {text-align:justify;line-height:1.5}
 table.announcements td.description {width: 100%;text-align: justify;}
-
 /* ============ TABLET ============ */
 @media (min-width: 768px) {
     #body {
