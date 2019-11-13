@@ -27,6 +27,8 @@ h4 {
     color: #fff;
 }
 
+h3.mycustom-background{ color: #fff; }
+
 #articleAbstract {
     text-align: justify
 }
