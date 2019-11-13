@@ -10,6 +10,7 @@ h4 {
 }
 
 #main h2,
+#main h3,
 #main h4,
 #main h4 a,
 #main li a,
@@ -22,12 +23,9 @@ h4 {
 }
 
 .mycustom-background {
-    background: #6b023d!important;
     padding-left: 5pt;
-    color: #fff;
+    border-bottom: 1px solid #6b023d;
 }
-
-h3.mycustom-background{ color: #fff; }
 
 #articleAbstract {
     text-align: justify
