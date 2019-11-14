@@ -839,4 +839,11 @@ input.textField, select.selectMenu, textarea.textArea, input.uploadField {
     height: auto;
     width: 100%;
 padding-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: auto;
+    height: auto;
+}
+#headerTitle {
+    width: 100%;
 }
