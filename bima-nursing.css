@@ -451,3 +451,18 @@ table.tocArticle {/*Merubah warna garis bawah di table of content*/
 #breadcrumb {
     border-bottom: 1px solid #dcdcdc;
 }
+
+/* tambahan baru */
+#headerTitle img {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+padding-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+    height: auto;
+}
+#headerTitle {
+    width: 100%;
+}
