@@ -441,13 +441,10 @@ table.tocArticle {/*Merubah warna garis bawah di table of content*/
     content: "\f019";
 }
 #journalDescription{/*Menghilangkan cover halaman depan*/
-	width: 100%;
+	width: 68%;
 	margin-bottom: 30px;
 }
 
-#homepageImage {
-	display: none;
-}
 #breadcrumb {
     border-bottom: 1px solid #dcdcdc;
 }
