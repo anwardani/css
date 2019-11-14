@@ -686,32 +686,9 @@ input.textField, select.selectMenu, textarea.textArea, input.uploadField {
 	font-style: normal;
 }
 
-/*.tocDOI::before {
-    content: 'DOI:';
-}
-
-.tocDOI img {
-    display: none;
-}
-
-.tocDOI span::after {
-    content: '|';
-    padding: 10px;
-}*/
-
 .tocDOI > span > i > a {
     font-style: normal;
 }
-
-/* Commenting out until needed
-
-.tocArticle tr:hover {
-    background-color: #c7d9e9 !important;
-}
-
-*/
-
-/* 12. Indexers */
 
 .indexers a {
 	border: 0;
@@ -854,4 +831,12 @@ input.textField, select.selectMenu, textarea.textArea, input.uploadField {
 }
 #topBar {
    display: none;
+}
+
+/* tambahan baru */
+#headerTitle img {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+padding-bottom: 40px;
 }
