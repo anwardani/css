@@ -107,6 +107,7 @@ ul.sidemenu {
     #journalDescription {  width: 100%; }
     #homepageImage { width: 100%; }
     #homepageImage {    padding-top: 20px; }    
+    #container {   min-width: 100%; }
 }
 @media only screen and (max-width:455px) {
  ul#indexTab>li,
@@ -123,4 +124,5 @@ ul.sidemenu {
     #journalDescription {  width: 100%; }
     #homepageImage { width: 100%; }
     #homepageImage {    padding-top: 20px; }        
+    #container {   min-width: 100%; }
 }
