@@ -79,3 +79,13 @@ a, a:link {
 #pageFooter-bottom a {
     color: #ffd329;
 }
+ul.sidemenu li a {
+    background-color: #7b0770;
+    border-bottom: 1px solid #99158d;
+}
+#rightSidebar ul.sidemenu a {
+    color: #fff;
+}
+ul.sidemenu {
+    margin: -10px -10px -4px -5px !important;
+}
