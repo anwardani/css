@@ -93,8 +93,16 @@ ul.sidemenu {
     padding: 0;
     line-height: auto;
 }
-#container {
-    min-width: 100%;
+#rightSidebar div.block {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    margin-top: 8px;
+    padding: 4px;
+    -webkit-box-shadow: 2px 2px 4px #CACACA;
+    box-shadow: 2px 2px 4px #CACACA;
+    -moz-box-shadow: 2px 2px 4px #CACACA;
+    -o-box-shadow: 2px 2px 4px #CACACA;
+    margin: 10px;
 }
 @media only screen and (max-width:768px) {
     #main {  width:100%!important  }
@@ -107,7 +115,6 @@ ul.sidemenu {
     #journalDescription {  width: 100%; }
     #homepageImage { width: 100%; }
     #homepageImage {    padding-top: 20px; }    
-    #container {   min-width: 100%; }
 }
 @media only screen and (max-width:455px) {
  ul#indexTab>li,
@@ -124,5 +131,4 @@ ul.sidemenu {
     #journalDescription {  width: 100%; }
     #homepageImage { width: 100%; }
     #homepageImage {    padding-top: 20px; }        
-    #container {   min-width: 100%; }
 }
