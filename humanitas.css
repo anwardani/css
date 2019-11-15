@@ -31,6 +31,7 @@ div#pageFooter-bottom {
 #header {
     border-color: #7b0770; /* ganti warna header */
     box-shadow: 0px 0px 6px #730849;
+    height: auto;
 }
 #header, #mainmenu, .dropdown-menu, .dropdown-menu.submenu {
     background-color: #7b0770; /* ganti warna header */
@@ -87,4 +88,39 @@ ul.sidemenu li a {
 }
 ul.sidemenu {
     margin: -10px -10px -4px -5px !important;
+}
+#header h1 {
+    padding: 0;
+    line-height: auto;
+}
+#container {
+    min-width: auto;
+}
+@media only screen and (max-width:768px) {
+    #main {  width:100%!important  }
+    ul#indexTab > li > a {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin-top: 10px;
+    }
+    #journalDescription {  width: 100%; }
+    #homepageImage { width: 100%; }
+    #homepageImage {    padding-top: 20px; }    
+}
+@media only screen and (max-width:455px) {
+ ul#indexTab>li,
+ ul#indexTab>li>a {
+  width:100%;
+ }
+    #main {  width:100%!important  }
+    ul#indexTab > li > a {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin-top: 10px;
+    }
+    #journalDescription {  width: 100%; }
+    #homepageImage { width: 100%; }
+    #homepageImage {    padding-top: 20px; }        
 }
