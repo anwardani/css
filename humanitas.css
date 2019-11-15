@@ -97,12 +97,15 @@ ul.sidemenu {
     background-color: #FFFFFF;
     border: 1px solid #999999;
     margin-top: 8px;
-    padding: 4px;
+    padding: 0 4px;
     -webkit-box-shadow: 2px 2px 4px #CACACA;
     box-shadow: 2px 2px 4px #CACACA;
     -moz-box-shadow: 2px 2px 4px #CACACA;
     -o-box-shadow: 2px 2px 4px #CACACA;
     margin: 10px;
+}
+.blockTitle {
+    margin: 0px -4px 0 -4px;
 }
 @media only screen and (max-width:768px) {
     #main {  width:100%!important  }
