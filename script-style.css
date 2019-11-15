@@ -50,3 +50,5 @@ a:visited {
     color: #000;
 }
 div.warningMessage{ display:none; }
+
+#pageFooter{clear:both}#main{min-height:1350px}
