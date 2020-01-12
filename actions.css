@@ -147,7 +147,8 @@ a:hover {
 }
 
 #container {
-    background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/noisy_grid.png);
+    /* background: url(http://www.mevjournal.com/plugins/themes/spica/imgs/noisy_grid.png); */
+    background: url(http://ejournal.poltekkesaceh.ac.id/public/new-background.jpg);
     min-width: 730px!important;
     text-align: center
 }
@@ -230,7 +231,7 @@ ul.sidemenu li a {
 }
 
 #leftSidebar {
-    display: none;
+    display: block;
     border-right: 1px solid #ccc;
     float: left;
     width: 0
