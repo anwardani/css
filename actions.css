@@ -168,7 +168,7 @@ h6 {
 #navbar {
     margin: 0 0 12px -185px;
     padding: 0;
-    background-color: DarkGreen;
+    background-color: navy;
     background-image: none;
     clear: both;
     text-align: center;
@@ -244,7 +244,7 @@ h6 {
 }
 
 #navbar a:hover {
-    background: #8c4827;
+    background: #000067;
     text-shadow: 1px 1px #8c4827
 }
 
