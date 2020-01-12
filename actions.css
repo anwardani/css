@@ -110,48 +110,32 @@ h6 {
 #container {
     margin: 0 auto;
     padding: 0;
-    background-color: #ccc;
-    background-image: none;
-    width: auto;
+    background: url(http://ejournal.poltekkesaceh.ac.id/public/new-background.jpg);    width: auto;
     min-width: 730px!important;
     text-align: center;
     display: inline-block
 }
 
-#header {
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-    background-image: none;
-    min-height: 150px
-}
-
 #headerTitle {
-    width: 1080px;
-    margin: 0 auto;
-    display: inline-block
+    width: 1020px;
+    background: #000080;
 }
 
 #header h1 {
-    font-family: Teko, verdana, Georgia, "Times New Roman", Times, serif!important;
-    font-weight: 200!important;
-    text-transform: none;
-    font-size: 3.2em;
-    letter-spacing: 0;
     color: #111;
-    text-shadow: 1px 1px #fff;
-    padding: 0!important;
-    line-height: 150px;
-    margin-top: -13.33333333px
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 120px;
+    padding: 0;
+    text-shadow: 1px 1px #fff
 }
 
 #headerTitle img {
     float: left;
-    display: inline-block;
-    margin-top: 13.33333333px;
-    margin-bottom: 40px;
-    max-width: 1080px;
-    height: auto
+    margin-right: 20px;
+    background-color: #000080;
 }
 
 #body {
@@ -290,15 +274,17 @@ ul.sidemenu li a {
     display: block;
     padding: .7em 12px .7em 12px;
     border-bottom: 1px solid #b5b5b5;
-    background-color: #eee;
+    background: #000080;
     text-decoration: none;
-    color: #222
+    color: #fff;
 }
 
 ul.sidemenu li a:hover {
-    background-color: #f2dbd0;
+    background-color: #5a5a9e;
     text-decoration: underline
 }
+
+
 
 #breadcrumb {
     margin: 0 12px 1em 12px;
