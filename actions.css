@@ -156,7 +156,7 @@ h6 {
     display: inline;
     float: left;
     position: relative;
-    width: 690px;
+    width: 650px;
     overflow: visible!important
 }
 
@@ -166,7 +166,7 @@ h6 {
 }
 
 #navbar {
-    margin: 0 0 12px -185px;
+    margin: 0 0 12px -215px;
     padding: 0;
     background-color: navy;
     background-image: none;
@@ -320,7 +320,7 @@ ul.sidemenu li a:hover {
 }
 
 #leftSidebar {
-    width: 160px;
+    width: 190px;
     display: inline;
     float: left;
     border-right-width: 1px;
@@ -329,7 +329,7 @@ ul.sidemenu li a:hover {
 }
 
 #rightSidebar {
-    width: 180px;
+    width: 190px;
     float: right;
     border-left-width: 1px;
     border-left-style: solid;
@@ -348,9 +348,9 @@ ul.sidemenu li a:hover {
 #rightSidebar div.block span.blockTitle {
     padding: .5em 1em;
     margin-bottom: 12px;
-    background: #dadada url(imgs/stripes.png);
+    background: navy;
     display: block;
-    color: #444;
+    color: #fff;
     font-weight: bold;
     letter-spacing: 0
 }
@@ -576,7 +576,8 @@ span.highlight {
 
 #journalDescription {
     float: left;
-    width: 100%
+    width: 68%;
+    text-align: justify;
 }
 
 #homepageImage {
