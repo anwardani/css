@@ -847,3 +847,7 @@ padding-bottom: 40px;
 #headerTitle {
     width: 100%;
 }
+#content h3 {
+clear: both;
+border-top: 1px solid gray;
+}
