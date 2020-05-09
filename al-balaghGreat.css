@@ -1,0 +1,37 @@
+/* coloring */
+#main a {
+    color: #754f08;
+}
+nav {
+    background-color: #754f08;
+}
+.footertop {
+    background: #d9b943;
+    padding: 10px;
+    color: #fff;
+    border-bottom: 5px solid #b69726;
+}
+.page-footer {
+    background: #754f08;
+    color: #fff;
+}
+.page-footer a {
+    color: #fff !important;
+}
+.credit {
+    font-size: 0.8rem;
+    opacity: 0.4;
+}
+.blockTitle {
+    display: block;
+    background: #b69726;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    font-size: 1.2rem;
+    margin: -10px -10px 5px -10px;
+}
+.instruct {
+    font-size: 0.9rem;
+    color: #8080808f;
+}
