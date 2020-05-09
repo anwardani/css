@@ -38,3 +38,6 @@ nav {
 .nfile {
     background: #b69726;
 }
+div.panel-body a.title {
+    font-size: 1rem;
+}
