@@ -7,3 +7,4 @@ img.responsive-img { width: 100% !important; }
 .fulltext {width: 50% !important;}
 .doi { width: 50% !important;}
 html { color: #000; }
+.col-md-12 { padding: 10px 10px 5px 12px; }
