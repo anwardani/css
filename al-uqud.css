@@ -3,6 +3,6 @@ h4,h3,h2,h1{font-family:tahoma,arial,verda,sans-serif,helvetica}#main h2,#main h
 #pageFooter-bottom a { color: #fff !important; }
 */
 body{background:url('http://shirkah.or.id/new-ojs/plugins/themes/newShirkah/css/back.jpg')}
-img.responsive-img {
-    width: 100% !important;
-}
+img.responsive-img { width: 100% !important; }
+.fulltext {width: 50% !important;}
+.doi { width: 50% !important;}
