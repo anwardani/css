@@ -10,6 +10,9 @@ nav {
     color: #445990;
     border-bottom: 5px solid #4e79e8;
 }
+.footertop a{
+    color: #445990;
+}
 .page-footer {
     background: #445990;
     color: #fff;
