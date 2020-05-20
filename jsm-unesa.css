@@ -10,9 +10,6 @@ nav {
     color: #445990;
     border-bottom: 5px solid #4e79e8;
 }
-.footertop a{
-    color: #445990 !important;
-}
 .page-footer {
     background: #445990;
     color: #fff;
@@ -39,6 +36,6 @@ img.responsive-img { width: 100% !important; }
 .doi { width: 50% !important;}
 html { color: #000; }
 .col-md-12 { padding: 10px 10px 5px 12px; }
-.footertop a { color: #fff !important; }
+.footertop a{ color: #445990 !important;}
 .dropdown-title { color: #000 !important; }
 .nfile { background: #595758; }
