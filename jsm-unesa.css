@@ -11,7 +11,7 @@ nav {
     border-bottom: 5px solid #4e79e8;
 }
 .footertop a{
-    color: #445990;
+    color: #445990 !important;
 }
 .page-footer {
     background: #445990;
