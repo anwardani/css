@@ -29,6 +29,8 @@ nav {
     border-bottom: 1px solid #4aa8b8;
     color: #fff;
 }
+.sidemenu li a { color: #fff !important;}
+.sidemenu li a:hover { color: #000 !important; }
 img.responsive-img { width: 100% !important; }
 .fulltext {width: 50% !important;}
 .doi { width: 50% !important;}
