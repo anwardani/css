@@ -1,5 +1,5 @@
 body {
-    background-color: #daf9d8;
+    background-color: #f9f7f7;
 }
 h4,
 h3,
@@ -201,4 +201,7 @@ ul.sidemenu li a:hover {
     background-color: #b30000;
     border-bottom: 1px solid #d90000;
     color: #fff;
+}
+#pageFooter-bottom a {
+    color: #dadddd;
 }
