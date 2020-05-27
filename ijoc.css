@@ -1,0 +1,204 @@
+body {
+    background-color: #daf9d8;
+}
+h4,
+h3,
+h2,
+h1 {
+    font-family: tahoma, arial, verda, sans-serif, helvetica;
+}
+#main h2,
+#main h3,
+#main h4,
+#main h4 a,
+#main li a,
+.article-data a {
+    color: #8b0000;
+}
+#header {
+    background-color: transparent;
+    margin-top: 0;
+}
+#container {
+    background-color: #fff;
+}
+.mycustom-background {
+    background: #daf1db none repeat scroll 0 0 !important;
+    padding-left: 5pt;
+}
+#articleAbstract {
+    text-align: justify;
+}
+#header,
+#mainmenu,
+.dropdown-menu,
+.dropdown-menu.submenu {
+    background-color: #8b0000;
+    border-color: #186e12;
+}
+#header {
+    border-color: #8b0000;
+}
+table.listing tr.fastTracked {
+    background-color: #000;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #b30000;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #b30000;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #b30000;
+}
+#navbar {
+    background-color: #8b0000;
+}
+#navbar a:hover {
+    background: #b30000;
+}
+#navbar a::before {
+    background: -moz-linear-gradient(center top, rgba(6, 0, 66, 1), #060042, rgba(6, 0, 66, 1)) rgba(6, 0, 66, 1);
+    opacity: 0.15;
+}
+#navbar a::after {
+    background: -moz-linear-gradient(center top, rgba(6, 0, 66, 1), #060042, rgba(6, 0, 66, 1)) rgba(6, 0, 66, 1);
+    opacity: 0.35;
+}
+nav#mainmenu {
+    background-color: #8b0000;
+    border: 0 solid transparent;
+}
+.navbar-nav > li > a:hover {
+    background-color: #b30000 !important;
+}
+ul.dropdown-menu {
+    background-color: #8b0000;
+    border-color: transparent;
+    opacity: 0.8;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #b30000;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #b30000;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #b30000;
+}
+ul.sidemenu li a:hover {
+    background-color: #b30000;
+    text-decoration: none;
+}
+#footer {
+    background-color: #8b0000;
+}
+#pageFooter {
+    background-color: #8b0000;
+}
+#pageFooter-bottom {
+    background-color: #8b0000;
+}
+#pageFooter h3 {
+    color: #fff;
+}
+input.defaultButton {
+    color: #8b0000;
+}
+input.button,
+.btn-primary,
+input.button:link,
+.btn-primary:link {
+    background-color: #8b0000;
+    border-color: #8b0000;
+}
+input.button:hover,
+.btn-primary:hover,
+input.button:active,
+.btn-primary:active,
+input.button:visited,
+.btn-primary:visited {
+    background-color: #d90000;
+    border-color: #d90000;
+}
+.btn-primary,
+.btn-primary:link,
+a.btn-primary,
+a.btn-primary:link,
+input.button:link,
+.btn-primary:link {
+    color: #fff;
+}
+a,
+a:link {
+    color: #8b0000;
+}
+a:hover,
+a:active,
+a:visited {
+    color: #8b0000;
+}
+input.defaultButton,
+input.defaultButton:link {
+    background-color: #fff;
+    border-color: #ccc;
+}
+input.defaultButton:hover,
+input.defaultButton:active,
+input.defaultButton:visited,
+input.defaultButton:focus,
+input.btn-default:focus {
+    background-color: #ebebeb;
+    border-color: #adadad !important;
+    color: #333;
+}
+.button {
+    background-color: #8b0000;
+}
+#rightSidebar .block {
+    margin: 10px;
+}
+#rightSidebar,
+#leftSidebar {
+    background-color: #fff;
+}
+ul.sidemenu li a {
+    background-color: #8b0000;
+    border-bottom: 1px solid #b30000;
+}
+ul.sidemenu li a:hover {
+    background-color: #b30000;
+    border-bottom: 1px solid #d90000;
+    color: #fff;
+}
