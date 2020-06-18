@@ -42,13 +42,6 @@
 div#pageFooter-bottom {
     padding: 10pt !important;
 }
-#header img {
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: auto !important;
-}
-
 /* mobile style */
 @media only screen and (max-width: 600px) {
     #body, #bodyp, #container, #footer {
@@ -59,4 +52,10 @@ div#pageFooter-bottom {
     #rightSidebar {
         width: 100%;
     }
+    #header img {
+        left: 0px;
+        width: 100%;
+        height: auto !important;
+    }
+
 }
