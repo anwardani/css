@@ -42,3 +42,15 @@
 div#pageFooter-bottom {
     padding: 10pt !important;
 }
+
+/* mobile style */
+@media only screen and (max-width: 600px) {
+    #body, #bodyp, #container, #footer {
+        max-width: auto;
+        min-width: auto;
+        width: auto;
+    }
+    #rightSidebar {
+        width: 100%;
+    }
+}
