@@ -39,3 +39,6 @@
     position: relative;
     width: 22.2%;
 }
+div#pageFooter-bottom {
+    padding: 10pt !important;
+}
