@@ -5,11 +5,11 @@
   width: 1020px;
 }
 #header {
-  background-color: #600;
+  background-color: #68070e;
   padding-bottom: 40px;
 }
 #navbar {
-  background-color: #600; /*warna menu atas*/
+  background-color: #68070e; /*warna menu atas*/
   background-repeat: repeat-x;
   border: 0;
   height: 40px;
@@ -193,7 +193,7 @@ ul.sidemenu li {
   padding: 0;
 }
 ul.sidemenu li a {
-  background: #600; /*warna side menu*/
+  background: #68070e; /*warna side menu*/
   color: #fff000; /*warna text side menu*/
   display: block;
   padding: 0.66em 10px 0.6em 13px;
@@ -255,7 +255,7 @@ ul.sidemenu li a:hover {
   display: block;
   letter-spacing: 0;
   margin-bottom: 10px;
-  background: #600;
+  background: #68070e;
   padding: 0.4em 10px !important;
   text-transform: uppercase;
 }
