@@ -134,7 +134,7 @@ a:hover {
   text-decoration: underline;
 }
 #container {
-  background-color: #f1f1f1;
+  background: url(https://obsesi.or.id/public/site/backgroundgreen.png) !important;
   min-width: 730px !important;
   text-align: center;
 }
