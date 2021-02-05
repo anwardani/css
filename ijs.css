@@ -1,10 +1,9 @@
 @font-face {
     font-family: 'latoregular';
-    src: url('../font/lato/lato-reg-webfont.eot');
-    src: url('../font/lato/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/lato/lato-reg-webfont.woff') format('woff'),
-         url('../font/lato/lato-reg-webfont.ttf') format('truetype'),
-         url('../font/lato/lato-reg-webfont.svg#latoregular') format('svg');
+    src: url('https://anwardani.github.io/css-ojs2/font/lato/lato-regular-webfont.eot');
+    src: url('https://anwardani.github.io/css-ojs2/font/lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://anwardani.github.io/css-ojs2/font/lato/lato-regular-webfont.woff') format('woff'),
+         url('https://anwardani.github.io/css-ojs2/font/lato/lato-regular-webfont.ttf') format('truetype')
     font-weight: normal;
     font-style: normal;
 
